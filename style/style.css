@@ -1,0 +1,285 @@
+@import url('media.css');
+
+:root{
+    --verde: #9dd23f;
+    --dark: #4e4e4e;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "lato";
+    src: url(../assets/fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: "lato-black";
+    src: url(../assets/fonts/Lato/Lato-Black.ttf);
+}
+@font-face {
+    font-family: "lato-black-italic";
+    src: url(../assets/fonts/Lato/Lato-BlackItalic.ttf);
+}
+@font-face {
+    font-family: "lato-bold";
+    src: url(../assets/fonts/Lato/Lato-Bold.ttf);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "lato-black";
+    letter-spacing: 4px;
+}
+h2{
+    font-size: calc(24px + (40 - 24) * ((100vw - 300px) / (1600 - 300)));
+}
+h5{
+    font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1600 - 300)));
+}
+/*---generales--*/
+.divider{
+    border: 3px solid var(--verde);
+    background-color: var(--verde);
+    width: 7%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-fluid {
+    padding-right: 7% !important;
+    padding-left: 7% !important;
+}
+.my-10{
+    margin-top: 11.5%;
+    margin-bottom: 11.5%;
+}
+.mt-10{
+    margin-top: 6rem;
+}
+.mt-15{
+    margin-top: 9rem;
+}
+.py-10{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.txt {
+    font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.title{
+    position: relative;
+    text-align: center;
+
+    margin-top: 9rem;
+    margin-bottom: 3rem;
+}
+.title>.img-text{
+    position: absolute;
+    bottom: -20%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.btn-view_more{
+    font-family: "lato-black";
+    background-color: var(--dark);
+    color: white;
+    text-transform: uppercase;
+    border-radius: 0%;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 2px solid var(--dark);
+}
+.btn-view_more:hover{
+    color: var(--dark);
+    background-color: transparent;
+}
+
+/*---- NAVBAR ----*/
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../img/toggler-icon.svg);
+}
+.navbar-toggler {
+    border: none !important;
+}
+#nav{
+    background-color: #fcfcfc;
+    background-position-y: bottom;
+    background-position-x: left;
+    background-size: cover;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-family: "lato-black";
+    color: var(--dark) !important;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color: var(--verde) !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--verde) !important;
+}
+.social-media{
+    display: block;
+    padding: .5rem 1rem;
+}
+.social-media a{
+    padding: 0 .5rem;
+    color: var(--dark);
+}
+.social-media a:hover{
+    color: var(--verde);
+}
+
+.dropdown-toggle::after{
+    content: none !important;
+}
+ul.navbar-nav li.dropdown:hover>.dropdown-menu,
+ul.navbar-nav li.dropup:hover>.dropdown-menu {
+    display: block;
+}
+.navbar-light .navbar-nav .dropdown-item {
+    font-family: "lato-black";
+    color: var(--dark) !important;
+}
+
+a.login{
+    font-family: "lato-black";
+    color: var(--dark);
+}
+a.login:hover{
+    color: var(--verde);
+}
+a.language span:nth-child(1){
+    font-family: "lato" !important;
+    text-transform: initial;
+    background-color: #ededed;
+    color: #42494f !important;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: -5px;
+}
+a.language span:nth-child(2){
+    font-family: "lato" !important;
+    text-transform: initial;
+    background-color: var(--verde);
+    color: #42494f !important;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.img-rps {
+    width: calc(100px + (250 - 100) * ((100vw - 300px) / (1600 - 300)));
+    transition: ease 1s;
+}
+._img-rps {
+    width: calc(75px + (200 - 75) * ((100vw - 300px) / (1600 - 300)));
+    transition: ease 1s;
+}
+/*--- products ---*/
+.products{
+    background-image: url('../img/bg-white.png');
+    background-color: #1f1f1f;
+    background-repeat: repeat-x;
+    background-size: 40% ;
+}
+.products p{
+    color: white;
+}
+.products .btn-view_more:hover{
+    color: white;
+    border-color: white;
+    background-color: transparent;
+}
+
+/*--- gauss coin ---*/
+.gauss_coin{
+    background-image: url('../img/bg.png');
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*--- opportunity ---*/
+.opportunity{
+    background-color: #7eae29;
+    color: white;
+}
+/*--- contact-container ---*/
+.contact{
+    background-image: url('../img/bg-green.png');
+    background-color: white;
+    background-repeat: repeat-x;
+    background-size: 40% ;
+}
+.contact-container{
+    background-color: #2e2e2e;
+}
+.contact-container .form{
+    color: white;
+}
+.contact-container .form input,
+.contact-container .form textarea{
+    background-color: #3f3f3f;
+    border-radius: 0%;
+    border-color: #636d79;
+    color: white;
+    padding: 1.5rem;
+}
+.contact-container .form input::placeholder,
+.contact-container .form textarea::placeholder{
+    color: #cfd3d7;
+}
+.contact-container .form input:focus,
+.contact-container .form textarea:focus{
+    box-shadow: 0 0 0 0.2rem rgb(90, 90, 90);
+}
+.contact-container .form button{
+    font-family: "lato-bold";
+    background-color: #7eae29;
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 1.5rem;
+    border: 3px solid #7eae29;
+    border-radius: .6rem;
+}
+.contact-container .form button:hover{
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+}
+.img-contact-container{
+    position: relative;
+}
+.img-contact{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+    max-width: 70%;
+    height: auto;
+}
+/*--- footer ---*/
+.footer .border-top{
+    border-top: 1px solid var(--verde) !important;
+}
+.footer .nav-link{
+    font-size: calc(8px + (15 - 8) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.footer .navbar-light .navbar-nav .dropdown-item{
+    font-family: "lato-black";
+    color: var(--dark) !important;
+    font-size: calc(8px + (15 - 8) * ((100vw - 300px) / (1600 - 300)));
+}
+

@@ -1,0 +1,51 @@
+/*Animación para la moneda*/
+.rotated {
+    animation-name: rotation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotation {
+    0% {
+       transform: rotate(0deg);
+    }
+
+    100% {
+       transform: rotate(360deg);
+    }
+}
+
+.rotated-inverse {
+    animation-name: rotation-v;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotation-v {
+    0% {
+       transform: rotate(360deg);
+    }
+
+    100% {
+       transform: rotate(0deg);
+    }
+}
+
+/*Animación para el circuito*/
+svg .path {
+    stroke-dasharray: 320;
+    stroke-dashoffset: 0;
+    animation: dash 1.5s linear alternate-reverse infinite;
+ }
+
+ @keyframes dash {
+    from {
+       /*stroke-dashoffset: 0%;*/
+       stroke-dashoffset: 360;
+    }
+
+    to {
+       /*stroke-dashoffset: 100%;*/
+       stroke-dashoffset: 0;
+    }
+ }

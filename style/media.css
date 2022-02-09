@@ -1,0 +1,34 @@
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /*--- Generales ---*/
+    .title{
+        margin-top: 3rem !important;
+    }
+    .title>.img-text{
+        bottom: -5% !important;
+    }
+    /*--- NAV ---*/
+    .nav-top{
+        padding: 0;
+    }
+    .nav-top .social-media,
+    #nav .nav-top .nav-link{
+        padding: 0;
+    }
+    /*--- products ---*/
+    .products{
+        background-size: 125% !important;
+    }
+    /*--- contact ---*/
+    .contact{
+        background-size: 250% !important;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .img-contact{
+        max-width: 110% !important;
+    }
+}
