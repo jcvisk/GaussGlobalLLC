@@ -114,8 +114,8 @@
     "menu_powerplants":"Usina",
     "menu_gausscoin":"Gauss Coin",
     "menu_opportunity":"Oportunidade",
-    "menu_news":"Notícias",
-    "menu_contact":"Contacto",
+    "menu_news":"Novidades",
+    "menu_contact":"Contacta-nos",
     "menu_join":"img/join_pt.png",
 
     "company":"EMPRESA",
@@ -138,7 +138,7 @@
     "opportunity_text_2":"A vida que você quer está esperando. Tudo que você tem a fazer é dar o primeiro passo.",
     "opportunity_text_3":"Comece sua jornada.",
     
-    "form_title":"Contacte-nos",
+    "form_title":"Contacta-nos",
     "form_label_name":"Nome completo",
     "form_input_name":"Introduza aqui o seu nome completo",
     "form_label_email":"Correio electrónico",
