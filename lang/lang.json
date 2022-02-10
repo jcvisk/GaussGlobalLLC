@@ -1,0 +1,42 @@
+{
+  
+  "en":{
+    "menu_lang":"English",
+    "menu_home":"Home",
+    "menu_company":"Company",
+    "menu_aboutus":"About us",
+    "menu_whatdowedo":"what do we do",
+    "menu_products":"Products",
+    "menu_powerplants":"Power Plants",
+    "menu_gausscoin":"Gauss Coin",
+    "menu_opportunity":"Opportunity",
+    "menu_news":"News",
+    "menu_contact":"Contact",
+    "menu_join":"img/join.png",
+
+    "imagen": "img/texts/company.png",
+    "prueba1":"COMPANY",
+    "video": "PTMb_rkDC0Q",
+    "prueba2":"This text is in english"
+  },
+  "es":{
+    "menu_lang":"Español",
+    "menu_home":"Inicio",
+    "menu_company":"Compañía",
+    "menu_aboutus":"Acerca de nostros",
+    "menu_whatdowedo":"¿Qué hacemos?",
+    "menu_products":"Productos",
+    "menu_powerplants":"Planta",
+    "menu_gausscoin":"Gauss Coin",
+    "menu_opportunity":"Oportunidad",
+    "menu_news":"Noticias",
+    "menu_contact":"Contacto",
+    "menu_join":"img/join_es.png",
+
+    "imagen": "img/texts/compania.png",
+    "prueba1":"COMPAÑÍA",
+    "video": "Pl8aLtSsqRM",
+    "prueba2":"Este texto esta en español"
+  }
+  
+}

@@ -62,11 +62,21 @@
                                 <i class="fab fa-youtube"></i>
                             </a>
                         </div>
-                        <a class="nav-link language" href="es/index.html">
-                            <span>&nbsp;&nbsp; Español &nbsp;&nbsp;</span>
-                            <span>&nbsp;&nbsp; <i class="fa fa-caret-down" aria-hidden="true"></i>
-                                &nbsp;&nbsp;</span>
-                        </a>
+                        <div class="nav-item dropdown text-center">
+                            <a class="nav-link dropdown-toggle language" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-expanded="false">
+                                <span>&nbsp;&nbsp; <span class="lang" key="menu_lang">English</span> &nbsp;&nbsp;</span>
+                                <span>&nbsp;&nbsp; <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                    &nbsp;&nbsp;</span>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <button class="dropdown-item translate" id="es">Español</button>
+                                <div class="dropdown-divider"></div>
+                                <button class="dropdown-item translate" id="en">English</button>
+                                <div class="dropdown-divider"></div>
+                                <button class="dropdown-item translate" id="pt">Portuges</button>
+                            </div>
+                        </div>
                         <a class="nav-link login" href="https://backoffice.gaussgloballlc.com" target="_blank">
                             <img src="img/icons/user-icon.png" alt="user-icon" class="img-fluid">
                             <span>&nbsp;&nbsp; LOGIN &nbsp;&nbsp;</span>
@@ -76,40 +86,42 @@
                     <div class="col-12">
                         <ul class="navbar-nav justify-content-end text-uppercase align-items-center">
                             <li id="item1" class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link lang" href="#" key="menu_home">Home</a>
                             </li>
                             <li id="item2" class="nav-item dropdown text-center">
-                                <a class="nav-link dropdown-toggle" href="#_company" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle lang" href="#_company" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-expanded="false" key="menu_company">
                                     Company
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                  <a class="dropdown-item" href="#">About us</a>
-                                  <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="#">what do we do</a>
+                                    <a class="dropdown-item lang" href="#" key="menu_aboutus">About us</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item lang" href="#" key="menu_whatdowedo">what do we do</a>
                                 </div>
                             </li>
                             <li id="item3" class="nav-item dropdown text-center">
-                                <a class="nav-link dropdown-toggle" href="#_products" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle lang" href="#_products" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-expanded="false" key="menu_products">
                                     Products
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                  <a class="dropdown-item" href="#">Power Plants</a>
-                                  <div class="dropdown-divider"></div>
-                                  <a class="dropdown-item" href="#">Gauss Coin</a>
+                                    <a class="dropdown-item lang" href="#" key="menu_powerplants">Power Plants</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item lang" href="#" key="menu_gausscoin">Gauss Coin</a>
                                 </div>
                             </li>
                             <li id="item4" class="nav-item">
-                                <a class="nav-link" href="#_opportunity">Opportunity</a>
+                                <a class="nav-link lang" href="#_opportunity" key="menu_opportunity">Opportunity</a>
                             </li>
                             <li id="item5" class="nav-item">
-                                <a class="nav-link" href="#_news">News</a>
+                                <a class="nav-link lang" href="#_news" key="menu_news">News</a>
                             </li>
                             <li id="item6" class="nav-item">
-                                <a class="nav-link" href="#_contact">Contact</a>
+                                <a class="nav-link lang" href="#_contact" key="menu_contact">Contact</a>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link" href="https://join.gaussgloballlc.com" target="_blank">
-                                    <img src="img/join.png" alt="join" class="img-fluid">
+                                    <img src="img/join.png" alt="join" class="img-fluid lang" key="menu_join">
                                 </a>
                             </li>
                         </ul>
@@ -138,8 +150,8 @@
         <section id="company">
             <div class="container-fluid">
                 <div class="title">
-                    <img src="img/texts/company.png" alt="company" class="img-fluid img-text">
-                    <h2 class="text-uppercase my-0">
+                    <img src="img/texts/company.png" alt="company" class="img-fluid img-text lang" key="imagen">
+                    <h2 class="text-uppercase my-0 lang" key="prueba1">
                         COMPANY
                     </h2>
                     <hr class="divider my-0">
@@ -162,7 +174,7 @@
                         <a href="#" class="btn btn-view_more mb-4">VIEW MORE</a>
                     </div>
                     <div class="col-12 col-md-6 text-center">
-                        <a href="#" target="_blank" class="js-video-button" data-video-id='PTMb_rkDC0Q'>
+                        <a href="#" target="_blank" class="js-video-button lang" data-video-id='PTMb_rkDC0Q' key="video">
                             <img src="img/bg-video/video1.png" class="img-fluid" alt="bg-video">
                         </a>
                     </div>
@@ -264,7 +276,7 @@
                                 <div class="form-group col-md-6">
                                     <label for="input-phone">Phone Number</label>
                                     <input type="tel" class="form-control" id="input-phone"
-                                        placeholder="Input your full phone Number in here">
+                                        placeholder="Input your full phone number in here">
                                 </div>
                             </div>
                             <div class="form-row">
@@ -317,23 +329,25 @@
                                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                                         </li>
                                         <li id="item8" class="nav-item dropup text-center">
-                                            <a class="nav-link dropdown-toggle" href="#_company" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                            <a class="nav-link dropdown-toggle" href="#_company" id="navbarDropdown"
+                                                role="button" data-toggle="dropdown" aria-expanded="false">
                                                 Company
                                             </a>
                                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                              <a class="dropdown-item" href="#">About us</a>
-                                              <div class="dropdown-divider"></div>
-                                              <a class="dropdown-item" href="#">what do we do</a>
+                                                <a class="dropdown-item" href="#">About us</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">what do we do</a>
                                             </div>
                                         </li>
                                         <li id="item9" class="nav-item dropup text-center">
-                                            <a class="nav-link dropdown-toggle" href="#_products" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                            <a class="nav-link dropdown-toggle" href="#_products" id="navbarDropdown"
+                                                role="button" data-toggle="dropdown" aria-expanded="false">
                                                 Products
                                             </a>
                                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                              <a class="dropdown-item" href="#">Power Plants</a>
-                                              <div class="dropdown-divider"></div>
-                                              <a class="dropdown-item" href="#">Gauss Coin</a>
+                                                <a class="dropdown-item" href="#">Power Plants</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">Gauss Coin</a>
                                             </div>
                                         </li>
                                         <li id="item10" class="nav-item">
@@ -352,7 +366,8 @@
                     </div>
                     <div class="row align-items-center justify-content-between border-top">
                         <div>
-                            <small>Copyright &copy; <span id="year">2022</span>. All rights reserved. GAUSS Global.</small>
+                            <small>Copyright &copy; <span id="year">2022</span>. All rights reserved. GAUSS
+                                Global.</small>
                         </div>
                         <div class="social-media d-flex ml-auto">
                             <a href="#" target="_blank">
@@ -377,6 +392,7 @@
     <script src="assets/plugins/modalvideo/jquery-modal-video.min.js"></script>
     <script src="assets/plugins/animate/wow.min.js"></script>
     <script src="js/submitToAPI.js"></script>
+    <script src="lang/script.js"></script>
     <script src="js/front.js"></script>
 
 
