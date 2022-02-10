@@ -166,6 +166,12 @@ ul.navbar-nav li.dropup:hover>.dropdown-menu {
     font-family: "lato-black";
     color: var(--dark) !important;
 }
+.nav-top .translate:hover,
+.nav-top .translate:focus{
+    background-color: var(--verde);
+    color: white;
+    font-family: "lato-bold";
+}
 
 a.login{
     font-family: "lato-black";
@@ -223,6 +229,10 @@ a.language span:nth-child(2){
     background-repeat: no-repeat;
     background-size: cover;
 }
+.img-coin{
+    max-width: calc(230px + (370 - 230) * ((100vw - 300px) / (1600 - 300)));;
+    height: auto;
+}
 /*--- opportunity ---*/
 .opportunity{
     background-color: #7eae29;
@@ -240,6 +250,9 @@ a.language span:nth-child(2){
 }
 .contact-container .form{
     color: white;
+}
+.contact-container .form .form-title{
+    letter-spacing: 1px;
 }
 .contact-container .form input,
 .contact-container .form textarea{

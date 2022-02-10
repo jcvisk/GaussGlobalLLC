@@ -14,15 +14,48 @@
     "menu_contact":"Contact",
     "menu_join":"img/join.png",
 
-    "imagen": "img/texts/company.png",
-    "prueba1":"COMPANY",
-    "video": "PTMb_rkDC0Q",
-    "prueba2":"This text is in english"
+    "company":"COMPANY",
+    "company_img": "img/texts/company.png",
+    "company_text_1":"We are a company based in Dubai. One  of our areas of operation is the transformation of plastic waste into fuel with  above average quality. This will give our partners greater financial autonomy, while having the opportunity to work towards a cleaner environment.",
+    "company_text_2":"Through ever-evolving innovation and with the utmost integrity, our experienced executive team strives to set you apart from the rest of the world and build a legacy you can be proud of; one you can truly call home.",
+    "company_text_3":"Today, thanks to advanced research and science, we are able to keep our promises.",
+    "company_video": "PTMb_rkDC0Q",
+
+    "products":"PRODUCTS",
+    "products_img":"img/texts/products.png",
+    "products_img_title":"POWER PLANT",
+    "products_text":"Our power plant is a facility that transforms plastic into fuel and that consequently have the potential to create jobs and generate benefits for the economy, while  being a way to eliminate plastic and save the environment. This method can also be cheaper than current recycling methods. Chemical recycling is also much simpler, as when the plastic is heated to high temperatures, it is not necessary to separate the waste beforehand.",
+    
+    "gausscoin_text_1":"Our coin is ready to be launched. But for us it doesn't make sense to put a currency on the market, just to say that we have a currency. First of all, we want to create a community and make the coin usable, and we will work towards that, so when the time comes, we can launch the coin on the market.",
+    "gausscoin_text_2":"Our affiliates are our priority and with every product we launch we want them to feel proud of our work.",
+    
+    "opportunity_img_title":"OPPORTUNITY",
+    "opportunity_text_1":"Stop swapping your time for money. Earn residual income.",
+    "opportunity_text_2":"The life you want is awaiting. All you have to do is take the first step.",
+    "opportunity_text_3":"Start your journey.",
+    
+    "form_title":"Get in Touch",
+    "form_label_name":"Full Name",
+    "form_input_name":"Input your full name in here",
+    "form_label_email":"Email",
+    "form_input_email":"Input your email name in here",
+    "form_label_phone":"Phone Number",
+    "form_input_phone":"Input your full phone number in here",
+    "form_label_referall":"Referral",
+    "form_input_referral":"Input your referral name in here",
+    "form_label_howWeMet":"Let Us Know",
+    "form_input_howWeMet":"How did you about us",
+    "form_label_message":"Messages",
+    "form_input_message":"Write your messages in here",
+    "form_btn_send":"Send",
+
+    "copy_text":"All rights reserved.",
+    "btn_view_more":"VIEW MORE"
   },
   "es":{
     "menu_lang":"Español",
     "menu_home":"Inicio",
-    "menu_company":"Compañía",
+    "menu_company":"Empresa",
     "menu_aboutus":"Acerca de nostros",
     "menu_whatdowedo":"¿Qué hacemos?",
     "menu_products":"Productos",
@@ -33,10 +66,95 @@
     "menu_contact":"Contacto",
     "menu_join":"img/join_es.png",
 
-    "imagen": "img/texts/compania.png",
-    "prueba1":"COMPAÑÍA",
-    "video": "Pl8aLtSsqRM",
-    "prueba2":"Este texto esta en español"
+    "company":"EMPRESA",
+    "company_img": "img/texts/empresa.png",
+    "company_text_1":"Empresa con sede en Dubai, tiene como una de sus áreas de operación, la transformación de residuos plásticos de las más diversas áreas, en combustibles con calidad superior a la media, que permiten una mayor autonomía financiera así como la limpieza activa del medio ambiente en las comunidades donde opera.",
+    "company_text_2":"A través de una innovación en constante evolución y con la máxima integridad, nuestro experimentado equipo ejecutivo se esfuerza por diferenciarse del resto y construir un legado del que pueda estar orgulloso; uno al que realmente puedas llamar hogar.",
+    "company_text_3":"Actualmente, gracias a la investigación avanzada y la ciencia, somos capaces de mantener nuestras promesas.",
+    "company_video": "Pl8aLtSsqRM",
+
+    "products":"PRODUCTOS",
+    "products_img":"img/texts/productos.png",
+    "products_img_title":"PLANTA",
+    "products_text":"Las instalaciones que transforman el plástico en combustible tienen el potencial de generar puestos de trabajo y generar beneficios para la economía. Siendo una forma de eliminar el plástico y salvar el medio ambiente. Este método también puede ser más económico que los métodos de reciclaje actuales. El reciclaje químico es mucho más sencillo. Cuando el plástico se calienta a altas temperaturas, no es necesario separar los residuos de antemano.",
+    
+    "gausscoin_text_1":"Nuestra moneda está lista para ser lanzada. Pero para nosotros no tiene sentido poner una moneda en el mercado, solo para decir que tenemos una moneda. En primer lugar, queremos crear una comunidad y hacer que la moneda sea utilizable, y para eso trabajaremos para que cuando llegue el momento de lanzar la moneda al mercado.",
+    "gausscoin_text_2":"Nuestros afiliados son nuestra prioridad y con cada producto que lanzamos al mercado queremos que se sientan orgullosos de nuestro trabajo.",
+    
+    "opportunity_img_title":"OPORTUNIDAD",
+    "opportunity_text_1":"Deja de cambiar tu tiempo por dinero. Obtenga ingresos residuales.",
+    "opportunity_text_2":"La vida que quieres te está esperando. Todo lo que tienes que hacer es dar el primer paso.",
+    "opportunity_text_3":"Empieza tu viaje.",
+    
+    "form_title":"Póngase en contacto",
+    "form_label_name":"Nombre Completo",
+    "form_input_name":"Ingrese su nombre completo aquí",
+    "form_label_email":"Correo Electrónico",
+    "form_input_email":"Ingrese su correo electrónico aquí",
+    "form_label_phone":"Número de Teléfono",
+    "form_input_phone":"Ingrese su número de teléfono aquí",
+    "form_label_referall":"Remisión",
+    "form_input_referral":"Ingrese su nombre de referencia aquí",
+    "form_label_howWeMet":"Haznos saber",
+    "form_input_howWeMet":"Como te enteraste de nosotros",
+    "form_label_message":"Mensajes",
+    "form_input_message":"Escribe tus mensajes aquí",
+    "form_btn_send":"Enviar",
+
+    "copy_text":"Todos los derechos reservados.",
+    "btn_view_more":"VER MÁS"
+  },
+  "pt":{
+    "menu_lang":"Português",
+    "menu_home":"Início",
+    "menu_company":"Empresa",
+    "menu_aboutus":"Sobre nós",
+    "menu_whatdowedo":"o que é que fazemos",
+    "menu_products":"Produtos",
+    "menu_powerplants":"Usina",
+    "menu_gausscoin":"Gauss Coin",
+    "menu_opportunity":"Oportunidade",
+    "menu_news":"Notícias",
+    "menu_contact":"Contacto",
+    "menu_join":"img/join_pt.png",
+
+    "company":"EMPRESA",
+    "company_img": "img/texts/empresa.png",
+    "company_text_1":"Empresa sediada no Dubai, tem como uma de suas áreas de atuação, a transformação de resíduos plásticos das mais diversas áreas, em combustíveis com qualidade acima da média, que permitem maior autonomia financeira e limpeza ativa do meio ambiente onde atua.",
+    "company_text_2":"Através da inovação em constante evolução e com a máxima integridade, nossa experiente equipe executiva se esforça para diferenciá-lo dos demais e construir um legado do qual você possa se orgulhar; um lugar que você pode realmente chamar de lar.",
+    "company_text_3":"Hoje, graças à pesquisa e à ciência avançada, somos capazes de cumprir nossas promessas.",
+    "company_video": "Pl8aLtSsqRM",
+
+    "products":"PRODUTOS",
+    "products_img":"img/texts/produtos.png",
+    "products_img_title":"USINA",
+    "products_text":"Instalações que transformam plástico em combustível, que têm potencial para gerar empregos e benefícios para a economia, e ao mesmo sendo também uma forma de eliminar o plástico e salvar o meio ambiente. Este método de reciclagem química é mais barato e mais simples do que os métodos de reciclagem atuais. Quando o plástico é aquecido a altas temperaturas não é necessário separar previamente os resíduos.",
+    
+    "gausscoin_text_1":"Nossa moeda está pronta para ser lançada. Mas para nós não faz sentido colocar uma moeda no mercado, para apenas dizer que temos uma moeda. Em primeiro lugar, queremos criar uma comunidade e tornar a moeda utilizável e é para isso que trabalharemos, e quando chegar a hora, lançaremos a moeda no mercado.",
+    "gausscoin_text_2":"Nossos afiliados são nossa prioridade, e com cada produto que lançamos queremos que eles se sintam orgulhosos do nosso trabalho.",
+    
+    "opportunity_img_title":"OPORTUNIDADE",
+    "opportunity_text_1":"Pare de trocar seu tempo por dinheiro. Ganhe renda residual.",
+    "opportunity_text_2":"A vida que você quer está esperando. Tudo que você tem a fazer é dar o primeiro passo.",
+    "opportunity_text_3":"Comece sua jornada.",
+    
+    "form_title":"Contacte-nos",
+    "form_label_name":"Nome completo",
+    "form_input_name":"Introduza aqui o seu nome completo",
+    "form_label_email":"Correio electrónico",
+    "form_input_email":"Introduza aqui o seu nome de e-mail",
+    "form_label_phone":"Número de telefone",
+    "form_input_phone":"Introduza aqui o seu número de telefone",
+    "form_label_referall":"Consulta",
+    "form_input_referral":"Introduza aqui o seu nome de referência",
+    "form_label_howWeMet":"Avisa-nos",
+    "form_input_howWeMet":"Como é que nos conheceu",
+    "form_label_message":"Mensagens",
+    "form_input_message":"Escreva aqui as suas mensagens",
+    "form_btn_send":"Enviar",
+
+    "copy_text":"Todos os direitos reservados.",
+    "btn_view_more":"VER MAIS"
   }
   
 }

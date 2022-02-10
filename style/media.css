@@ -27,12 +27,22 @@
     .contact{
         background-size: 250% !important;
     }
+    /*--- gauss coin ---*/
+    .gauss_coin{
+        background-size: auto !important;
+    }
 
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768.98px) {
+    /*--- gauss coin ---*/
+    .gauss_coin{
+        background-position-y: bottom !important;
+    }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-    
     .img-title h2{
         /*font-size: calc(23px + (30 - 23) * ((100vw - 300px) / (1600 - 300))) !important; */
         /*padding: 1.2rem 5rem !important;*/

@@ -12,7 +12,7 @@ $(document).ready(function () {
       let content = doc[lang][$(this).attr('key')];
       let tagName = $(this).get(0).tagName.toLowerCase();
 
-      switch(tagName){
+      switch (tagName) {
         case 'img':
           $(this).attr('src', content);
           break;
@@ -29,15 +29,30 @@ $(document).ready(function () {
         case 'span':
           $(this).text(content);
           break;
+        case 'p':
+          $(this).text(content);
+          break;
+        case 'label':
+          $(this).text(content);
+          break;
+        case 'input':
+          $(this).attr('placeholder', content);
+          break;
+        case 'textarea':
+          $(this).attr('placeholder', content);
+          break;
+        case 'button':
+          $(this).text(content);
+          break;
       }
     });//Each
 
 
 
     $('.translate').click(function () {
-      
+
       localStorage.setItem("lang", $(this).attr('id'));
-      
+
       let lang = $(this).attr('id');
       let doc = json;
 
@@ -46,7 +61,7 @@ $(document).ready(function () {
         let tagName = $(this).get(0).tagName.toLowerCase();
 
 
-        switch(tagName){
+        switch (tagName) {
           case 'img':
             $(this).attr('src', content);
             break;
@@ -61,8 +76,23 @@ $(document).ready(function () {
             $(this).text(content);
             break;
           case 'span':
-          $(this).text(content);
-          break;
+            $(this).text(content);
+            break;
+          case 'p':
+            $(this).text(content);
+            break;
+          case 'label':
+            $(this).text(content);
+            break;
+          case 'input':
+            $(this).attr('placeholder', content);
+            break;
+          case 'textarea':
+            $(this).attr('placeholder', content);
+            break;
+          case 'button':
+            $(this).text(content);
+            break;
         }
       }); //Each
     }); //Funcion click
