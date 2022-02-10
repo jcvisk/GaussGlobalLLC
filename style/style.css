@@ -118,6 +118,9 @@ h5{
     padding: 2rem 7rem;
     margin: 0;
 }
+.error{
+    color: red !important;
+}
 
 /*---- NAVBAR ----*/
 .navbar-light .navbar-toggler-icon {

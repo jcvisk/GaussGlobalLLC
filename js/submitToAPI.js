@@ -1,42 +1,86 @@
 function submitToAPI(e) {
     e.preventDefault();
-    var URL = "https://l1zzq02chg.execute-api.us-east-1.amazonaws.com/prod/contact-us";
+    let URL = "https://l1zzq02chg.execute-api.us-east-1.amazonaws.com/prod/contact-us";
 
-    var Namere = /[A-Za-z]{1}[A-Za-z]/;
-    if (!Namere.test($("#name-input").val())) {
-        alert ("Name cannot be blank");
+    let re_text = /[A-Za-z]{1}[A-Za-z]/;
+    var re_email = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
+
+
+
+    //validando nombre
+    if (!re_text.test($("#input-name").val())) {
+        $('#name-error').removeClass('d-none');
         return;
+    } else {
+        $('#name-error').addClass('d-none');
     }
 
-    if ($("#email-input").val()=="") {
-        alert ("Please enter your email");
+    //validando email
+    if ($("#input-email").val() == "") {
+        $('#email-error').removeClass('d-none');
         return;
+    }else{
+        $('#email-error').addClass('d-none');
+    }
+    //validando email
+    if (!re_email.test($("#input-email").val())) {
+        $('#email-error').removeClass('d-none');
+        return;
+    }else{
+        $('#email-error').addClass('d-none');
     }
 
-    var reeamil = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
-    if (!reeamil.test($("#email-input").val())) {
-        alert ("Please enter a valid email address");
+    //validando telefono
+    if ($("#input-phone").val() == "") {
+        $('#phone-error').removeClass('d-none');
         return;
+    } else {
+        $('#phone-error').addClass('d-none');
     }
 
-    var Descriptione = /[A-Za-z]{1}[A-Za-z]/;
-    if (!Descriptione.test($("#message-input").val())) {
-        alert ("Message cannot be blank");
+    //validando referral
+    if ($("#input-referral").val() == "") {
+        $('#referral-error').removeClass('d-none');
         return;
+    } else {
+        $('#referral-error').addClass('d-none');
     }
 
-    var name = $("#name-input").val();
-    var email = $("#email-input").val();
-    var message = $("#message-input").val();
-    var data = {
-        name : name,
-        email : email,
-        message : message
+    //validando howWeMet
+    if ($("#input-howWeMet").val() == "") {
+        $('#howWeMet-error').removeClass('d-none');
+        return;
+    } else {
+        $('#howWeMet-error').addClass('d-none');
+    }
+
+    //validando mensaje
+    if (!re_text.test($("#input-message").val())) {
+        $('#message-error').removeClass('d-none');
+        return;
+    }else {
+        $('#message-error').addClass('d-none');
+    }
+
+    let name = $("#name-input").val();
+    let email = $("#email-input").val();
+    let phone = $("#input-phone").val();
+    let referral = $("#input-referral").val();
+    let howWeMet = $("#input-howWeMet").val();
+    let message = $("#message-input").val();
+
+    let data = {
+        name: name,
+        email: email,
+        message: message,
+        phone: phone,
+        referral: referral,
+        howWeMet: howWeMet
     };
 
     $.ajax({
         type: "POST",
-        url : URL,
+        url: URL,
         dataType: "json",
         crossDomain: "true",
         contentType: "application/json; charset=utf-8",
@@ -45,12 +89,36 @@ function submitToAPI(e) {
 
         success: function () {
             // clear form and show a success message
-            alert("Your message has been sent successfully. In the next 48 hours, one of our executives will contact you.");
-            document.getElementById("contact-form").reset();
-            location.reload();
+
+            $('#emailSuccessModal .alert').removeClass('alert-danger');
+            $('#emailSuccessModal .alert').addClass('alert-success');
+            $('#email-success').removeClass('d-none');
+            $('#email-unsuccessful').addClass('d-none');
+            $('#emailSuccessModal').modal('show');
+            
+            $('#emailSuccessModalOk').click(function(){
+                document.getElementById("contact-form").reset();
+                location.reload();
+            });
+            $('#emailSuccessModal').click(function(){
+                document.getElementById("contact-form").reset();
+                location.reload();
+            });
+            
         },
         error: function () {
             // show an error message
-            alert("Unsuccessful");
-        }});
+            $('#emailSuccessModal .alert').removeClass('alert-success');
+            $('#emailSuccessModal .alert').addClass('alert-danger');
+            $('#email-unsuccessful').removeClass('d-none');
+            $('#email-success').addClass('d-none');
+            $('#emailSuccessModal').modal('show');
+
+            $('#emailSuccessModalOk').click(function(){
+                $('#emailSuccessModal').modal('hide');
+            });
+
+            //alert("Unsuccessful");
+        }
+    });
 }
