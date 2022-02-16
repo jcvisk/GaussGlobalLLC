@@ -26,7 +26,16 @@ $(document).ready(function () {
         case 'h2':
           $(this).text(content);
           break;
+        case 'h3':
+          $(this).text(content);
+          break;
+        case 'h4':
+          $(this).text(content);
+          break;
         case 'span':
+          $(this).text(content);
+          break;
+        case 'small':
           $(this).text(content);
           break;
         case 'p':
@@ -75,7 +84,16 @@ $(document).ready(function () {
           case 'h2':
             $(this).text(content);
             break;
+          case 'h3':
+            $(this).text(content);
+            break;
+          case 'h4':
+            $(this).text(content);
+            break;
           case 'span':
+            $(this).text(content);
+            break;
+          case 'small':
             $(this).text(content);
             break;
           case 'p':

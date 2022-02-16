@@ -9,6 +9,7 @@ function submitToAPI(e) {
 
     //validando nombre
     if (!re_text.test($("#input-name").val())) {
+        $("#input-name").focus();
         $('#name-error').removeClass('d-none');
         return;
     } else {
@@ -17,6 +18,7 @@ function submitToAPI(e) {
 
     //validando email
     if ($("#input-email").val() == "") {
+        $("#input-email").focus();
         $('#email-error').removeClass('d-none');
         return;
     }else{
@@ -24,6 +26,7 @@ function submitToAPI(e) {
     }
     //validando email
     if (!re_email.test($("#input-email").val())) {
+        $("#input-email").focus();
         $('#email-error').removeClass('d-none');
         return;
     }else{
@@ -32,6 +35,7 @@ function submitToAPI(e) {
 
     //validando telefono
     if ($("#input-phone").val() == "") {
+        $("#input-phone").focus();
         $('#phone-error').removeClass('d-none');
         return;
     } else {
@@ -40,6 +44,7 @@ function submitToAPI(e) {
 
     //validando referral
     if ($("#input-referral").val() == "") {
+        $("#input-referral").focus();
         $('#referral-error').removeClass('d-none');
         return;
     } else {
@@ -48,6 +53,7 @@ function submitToAPI(e) {
 
     //validando howWeMet
     if ($("#input-howWeMet").val() == "") {
+        $("#input-howWeMet").focus();
         $('#howWeMet-error').removeClass('d-none');
         return;
     } else {
@@ -56,6 +62,7 @@ function submitToAPI(e) {
 
     //validando mensaje
     if (!re_text.test($("#input-message").val())) {
+        $("#input-message").focus();
         $('#message-error').removeClass('d-none');
         return;
     }else {
@@ -72,10 +79,10 @@ function submitToAPI(e) {
     let data = {
         name: name,
         email: email,
-        message: message,
         phone: phone,
         referral: referral,
-        howWeMet: howWeMet
+        howWeMet: howWeMet,
+        message: message        
     };
 
     $.ajax({

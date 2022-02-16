@@ -1,5 +1,4 @@
 {
-  
   "en":{
     "menu_lang":"English",
     "menu_home":"Home",
@@ -59,7 +58,51 @@
     "btn_accept_modal":"Accept",
 
     "copy_text":"All rights reserved.",
-    "btn_view_more":"VIEW MORE"
+    "btn_view_more":"VIEW MORE",
+
+    "how_are_we": "How Are We?",
+    "how_are_we_img":"img/texts/who-are-we.png",
+    "how_are_we_text_1":"Gauss Global Investment LLC is a Dubai-based company that is tackling a very specific problem: plastic.",
+    "how_are_we_text_2":"Together, those responsible have more than 50 years of experience in building and creating networks, which made them develop a business, with an active hand in society, promoting recycling and fighting pollution, through the transformation of plastic into alternative fuel. This is a differentiating and innovative factor in building a network business.",
+    "how_are_we_text_3":"Our goal is to create something that prompts enthusiasm and the will to continue to grow further, making a difference to the communities where we are inserted.  This is how Gauss Global LLC was created and this is how it will continue to grow.",
+
+    "mission":"THE MISSION",
+    "mission_text_1":"We are committed to the environment, understanding its global problems but contributing to a real solution to save the planet. We know that the sacrifice and the price that you are not willing to pay will end up being paid by your children or grandchildren; with that in mind, the future starts today, the future is green, the future from now on , is GAUSS.",
+    "vision":"THE VISION",
+    "vision_text_1":"Allow our members to benefit from the growth of their businesses in an unprecedented way, providing a positive, structured and professional environment for their  personal development and growth and the respective communities.",
+
+    "values_img":"img/values.png",
+
+    "dionisio":"Dionísio",
+    "dionisio_last_name":"da Silva Simões",
+    "dionisio_text_1":"Graduated from accounting, Dionísio has always been passionate about numbers. After years of working in the area, he has decided to turn his life around and follow his dream of having a more autonomous career, where his happiness was not dependent of a 9-6 job. At 45 years of age, he has changed his path, and decided to invest not only on working towards his personal growth but also on what really matters: spending time with his loved ones.",
+    "dionisio_text_2":"Over the years, Dionisio has done numerous courses that allowed him to develop his strengths and work on his weaknesses. Those  include neuro-linguistic programming, neuro-strategy, and coaching. With that in mind, Dionísio is not scared of taking bold and brave decisions. He has spent a couple of years in Brazil inspiring thousands of people on how to stop complaining and start working towards a more fulfilled life. His experience speaks for itself, after reaching higher positions in several network marketing companies, he put into theory what he had been able to do in practice: develop leaders.",
+  
+    "martin":"MARTIN ROJAS",
+    "martin_text_1":"From a very young age, Martin has led a very disciplined life. He went through military training for 3 years, which allowed him to face life and its adversities with a different perspective. When he started his career in economics he began to do Marketing Multilevel and his life really started to change. He then decided to move to another country in search of a better life for him and his loved ones. The opportunities within this world were endless, and Martin was able to navigate the industry better than anyone else.",
+    "martin_text_2":"While creating a legacy and providing his loved ones with a better future, he was able to travel the world. In the process, he was exposed to over 50 countries, allowing him to see and approach the world with a very open and different mindset. Thanks to his life and work experiences, Martin has become an expert in networking and his knowledge in this area is unquestionable. His life motto is: who lives to serve, serves to live!",
+
+    "team":"THE TEAM",
+    "team_img":"img/texts/team.png",
+    "team_member_1":"Patricia Simoes",
+    "team_member_1_desc_1":"Director of Communication",
+    "team_member_2":"RICARDO GALRITO",
+    "team_member_2_desc_1":"Commercial Representative",
+    "team_member_2_desc_2":"EUROPE",
+    "team_member_3":"RODRIGO ROJAS",
+    "team_member_3_desc_1":"Sales Manager",
+    "team_member_3_desc_2":"AFRICA & MIDDLE EAST",
+    "team_member_4":"JUAN ROJAS",
+    "team_member_4_desc_1":"Commercial Representative",
+    "team_member_4_desc_2":"AMERICAS",
+
+    "bruno":"BRUNO PEREIRA",
+    "bruno_text_1":" “In 20 years of Network Marketing, I have never seen a company with such an outstanding purpose. Being able to help our planet and still be compensated is so rewarding! The company definitely has one of the best compensation plans,  as it is sustainable, fair and very attractive.",
+    "bruno_text_2":"I am grateful to the owners, Dionisio Simões and Martin Rojas, for providing us with this tremendous business opportunity.” ",
+  
+    "joel":"Joel Carmona",
+    "joel_text_1":" “It has been 8 years since I was introduced to the online marketplace industry. Gauss is definitely ahead of its time, and  their main focus  is  environmental solutions and creating opportunities to help people make money.",
+    "joel_text_2":"The founders Dionisio Simões and Martin Rojas are two outstanding people who were able to find a sustainable solution for a very real problem: plastic waste.” "
   },
   "es":{
     "menu_lang":"Español",
@@ -120,7 +163,51 @@
     "btn_accept_modal":"Aceptar",
 
     "copy_text":"Todos los derechos reservados.",
-    "btn_view_more":"VER MÁS"
+    "btn_view_more":"VER MÁS",
+
+    "how_are_we": "¿Quiénes somos?",
+    "how_are_we_img":"img/texts/quienes-somos.png",
+    "how_are_we_text_1":"Gauss Global Investment LLC es una empresa con sede en Dubái que está abordando un problema muy específico: el plástico.",
+    "how_are_we_text_2":"Juntos, los responsables suman más de 50 años de experiencia en la construcción y creación de redes, lo que les hizo desarrollar un negocio, con una mano activa en la sociedad, fomentando el reciclaje activo y luchando contra la contaminación, a través de la Transformación del plástico en combustible alternativo. Este es un factor diferenciador e innovador en la construcción de un negocio en red.",
+    "how_are_we_text_3":"El objetivo es crear algo que despierte entusiasmo y ganas de seguir creciendo cada vez más, marcando la diferencia en las comunidades, así nació Gauss Global llc y así seguirá creciendo.",
+
+    "mission":"LA MISIÓN",
+    "mission_text_1":"Estamos comprometidos con el medio ambiente, entendendo su problemática global pero contribuyendo con una solución real para salvar el planeta. Sabemos que el sacrificio y el precio que usted no quiera pagar, lo terminaran pagando sus hijos o sus nietos; por lo tanto, el momento es hoy, el futuro es verde, el futuro desde hoy es GAUSS.",
+    "vision":"LA VISIÓN",
+    "vision_text_1":"Permitir que nuestros integrantes se beneficien del crecimiento de sus negocios de una forma sin precedentes, brindando un ambiente positivo, estructurado y profesional para el desarrollo y crecimiento personal de nuestros asociados y de las comunidades donde estaremos insertos.",
+
+    "values_img":"img/los-valores.png",
+
+    "dionisio":"Dionísio",
+    "dionisio_last_name":"da Silva Simões",
+    "dionisio_text_1":"Graduado en contabilidad, Dionísio siempre ha sido un apasionado de los números. Después de años de trabajar en el área, ha decidido dar un giro a su vida y seguir su sueño de tener una carrera más autónoma, donde su felicidad no dependa de un trabajo de 9-6 horas. A sus 45 años ha cambiado de rumbo y decidió invertir no solo en trabajar por su crecimiento personal sino también en lo que realmente importa: pasar tiempo con sus seres queridos.",
+    "dionisio_text_2":"A lo largo de los años, Dionisio ha realizado numerosos cursos que le permitieron desarrollar sus fortalezas y trabajar sus debilidades. Entre ellos se incluyen la programación neurolingüística, la neuro estrategia y el coaching. Con eso en mente, Dionísio no tiene miedo de tomar decisiones audaces y valientes. Ha pasado un par de años en Brasil inspirando a miles de personas sobre cómo dejar de quejarse y comenzar a trabajar hacia una vida más plena. Su experiencia habla por sí sola, luego de alcanzar posiciones altas en varias empresas de mercadeo en red, puso en teoría lo que había sido capaz de hacer en la práctica: desarrollar líderes.",
+  
+    "martin":"MARTIN ROJAS",
+    "martin_text_1":"Desde muy joven, Martin ha llevado una vida muy disciplinada. Realizó un entrenamiento militar durante 3 años, lo que le permitió afrontar la vida y sus adversidades con una perspectiva diferente. Cuando inicio su carrera de economía empezó a hacer Multinivel y su vida empezó a cambiar de verdad. Entonces decidió mudarse de país en busca de una vida mejor para él y sus seres queridos. Las oportunidades dentro de este mundo eran infinitas, y Martin fue capaz de navegar por la industria mejor que nadie.",
+    "martin_text_2":"Al mismo tiempo que creaba un legado y proporcionaba a sus seres queridos un futuro mejor, pudo viajar por todo el mundo. Durante el proceso conoció más de 50 países, lo que le permitió ver y enfrentarse al mundo con una mentalidad muy abierta y distinta. Gracias a sus experiencias vitales y laborales, Martin se ha convertido en un experto en redes y sus conocimientos al respecto son indudables. Su lema de vida es: ¡quien vive para servir, sirve para vivir!",
+
+    "team":"EL EQUIPO",
+    "team_img":"img/texts/equipo.png",
+    "team_member_1":"Patricia Simoes",
+    "team_member_1_desc_1":"Directora de comunicación",
+    "team_member_2":"RICARDO GALRITO",
+    "team_member_2_desc_1":"Representante comercial",
+    "team_member_2_desc_2":"EUROPA",
+    "team_member_3":"RODRIGO ROJAS",
+    "team_member_3_desc_1":"Responsable Comercial",
+    "team_member_3_desc_2":"ÁFRICA Y ORIENTE MEDIO",
+    "team_member_4":"JUAN ROJAS",
+    "team_member_4_desc_1":"Representante Comercial",
+    "team_member_4_desc_2":"AMÉRICAS",
+
+    "bruno":"BRUNO PEREIRA",
+    "bruno_text_1":" “En 20 años de Network Marketing, nunca había visto una empresa con un propósito tan grandioso, ¡poder ayudar a nuestro planeta y aún así ser recompensado es muy gratificante! Y con uno de los mejores planes de compensación, sostenible, justo y muy atractivo.",
+    "bruno_text_2":"Estoy agradecido a los propietarios, Dionisio Simões y Martin Rojas por brindarnos esta tremenda oportunidad comercial.” ",
+  
+    "joel":"Joel Carmona",
+    "joel_text_1":" “Han pasado 8 años desde que me introdujeron en la industria del mercado en redes. Gauss definitivamente está adelantando con el tiempo con el enfoque principal en la solución ambiental e en la creación de oportunidad para ayudar a las personas a ganar dinero.",
+    "joel_text_2":"Los fundadores Dionisio Simões y Martin Rojas son dos personas excepcionales que encontraron una solución sustentable  a un serio  problema: Los residuos plásticos.” "
   },
   "pt":{
     "menu_lang":"Português",
@@ -181,7 +268,51 @@
     "btn_accept_modal":"Aceitar",
 
     "copy_text":"Todos os direitos reservados.",
-    "btn_view_more":"VER MAIS"
+    "btn_view_more":"VER MAIS",
+
+    "how_are_we": "Quem Somos?",
+    "how_are_we_img":"img/texts/quem-somos.png",
+    "how_are_we_text_1":"A Gauss Global Investment LLC é uma empresa sediada em Dubai que está lidando com um problema muito específico: o lixo plástico.",
+    "how_are_we_text_2":"Os seus responsáveis têm em conjunto, mais de 50 anos de experiência na construção e criação de redes, o que os  fez desenvolver um negócio com mão ativa na sociedade , promovendo  uma reciclagem ativa  e combatendo a poluição, através da Transformação do plástico em combustíveis alternativos. Este é um fator diferenciador e inovador na construção do negócio em rede.",
+    "how_are_we_text_3":"O objetivo é o de criar algo que desperte o entusiasmo e a vontade de continuar a crescer cada vez mais fazendo a diferença junto das comunidades, assim nasceu a Gauss Global llc e assim continuará a crescer.",
+
+    "mission":"A Missão",
+    "mission_text_1":"Estamos comprometidos com o meio ambiente, entendendo seus problemas globais, mas contribuindo para uma solução real para salvar o planeta. Sabemos que o sacrifício e o preço que você não quer pagar, acabará sendo pago por seus filhos ou netos; portanto, o tempo é hoje, o futuro é verde, o futuro a partir de hoje, é GAUSS.",
+    "vision":"A Visão",
+    "vision_text_1":"Permitir que os nossos membros beneficiem do crescimento dos seus negócios de uma forma sem precedentes, proporcionando um ambiente positivo, estruturado e profissional para o desenvolvimento e crescimento pessoal dos nossos associados e das comunidades onde estaremos inseridos.",
+
+    "values_img":"img/os-valores.png",
+
+    "dionisio":"Dionísio",
+    "dionisio_last_name":"da Silva Simões",
+    "dionisio_text_1":"Formado em contabilidade, Dionísio sempre foi apaixonado por números. Após anos de trabalho na área, ele decidiu mudar sua vida e seguir seu sonho de ter uma carreira mais autônoma, onde sua felicidade não dependesse de um emprego das 9 às 6. Aos 45 anos de idade, ele mudou seu caminho e decidiu investir não apenas em trabalhar para seu crescimento pessoal, mas também no que realmente importa: passar tempo com seus entes queridos.",
+    "dionisio_text_2":"Ao longo dos anos, Dionísio fez inúmeros cursos que lhe permitiram desenvolver seus pontos fortes e trabalhar sobre suas fraquezas. Estes incluem programação neuro-linguística, neuro-estratégia e coaching. Com isso em mente, Dionísio não tem medo de tomar decisões arrojadas e corajosas. Ele passou alguns anos no Brasil inspirando milhares de pessoas em como parar de reclamar e começar a trabalhar para uma vida mais realizada. Sua experiência fala por si, depois de alcançar posições superiores em várias empresas de marketing de rede, ele colocou em teoria o que tinha sido capaz de fazer na prática: desenvolver líderes.",
+  
+    "martin":"MARTIN ROJAS",
+    "martin_text_1":"Desde muito jovem, Martin tem levado uma vida muito disciplinada. Ele passou por um treinamento militar durante 3 anos, o que lhe permitiu enfrentar a vida e suas adversidades com uma perspectiva diferente. Quando ele começou sua graduação em economia, começou a fazer negócios em Marketing Multi-nível e sua vida realmente começou a mudar. Ele decidiu então mudar-se para outro país em busca de uma vida melhor para si e para seus entes queridos. As oportunidades dentro deste mundo eram infinitas, e Martin era capaz de navegar na indústria melhor do que qualquer outro.",
+    "martin_text_2":"Ao mesmo tempo em que criava um legado e proporcionava a seus entes queridos um futuro melhor, ele era capaz de viajar pelo mundo. No processo, ele viu mais de 50 países, o que lhe permitiu ver e se aproximar do mundo com uma mentalidade muito aberta e diferente. Graças às suas experiências de vida e trabalho, Martin tornou-se um especialista em networking e seu conhecimento neste campo é inquestionável. Seu lema de vida é: quem vive para servir, serve para viver!",
+
+    "team":"A EQUIPE",
+    "team_img":"img/texts/equipe.png",
+    "team_member_1":"Patricia Simoes",
+    "team_member_1_desc_1":"Director de Comunicação",
+    "team_member_2":"RICARDO GALRITO",
+    "team_member_2_desc_1":"Representante Comercial",
+    "team_member_2_desc_2":"EUROPA",
+    "team_member_3":"RODRIGO ROJAS",
+    "team_member_3_desc_1":"Gerente de vendas",
+    "team_member_3_desc_2":"AFRICA E O MÉDIO ORIENTE",
+    "team_member_4":"JUAN ROJAS",
+    "team_member_4_desc_1":"Representante Comercial",
+    "team_member_4_desc_2":"AMÉRICAS",
+
+    "bruno":"BRUNO PEREIRA",
+    "bruno_text_1":" “Em 20 anos de Marketing de Rede, nunca vi uma empresa com um propósito tão grandioso, poder ajudar nosso planeta e ainda ser recompensado é tão gratificante! E com um dos melhores planos de remuneração, sustentável, justo e muito atrativo.",
+    "bruno_text_2":"Agradeço aos proprietários, Dionísio Simões e Martin Rojas por nos proporcionarem esta tremenda oportunidade de negócio.” ",
+  
+    "joel":"Joel Carmona",
+    "joel_text_1":" “Já se passaram 8 anos desde que fui apresentado à indústria do mercado online. A Gauss está definitivamente à frente do tempo com o foco principal na solução ambiental e na criação de oportunidades para ajudar as pessoas a ganhar dinheiro.",
+    "joel_text_2":"Os fundadores Dionísio Simões e Martin Rojas são duas pessoas excecionais que conseguiram encontrar uma solução sustentável para um problema bastante real: os resíduos plásticos.” "
   }
   
 }

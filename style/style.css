@@ -2,7 +2,10 @@
 
 :root{
     --verde: #9dd23f;
+    --verde-dark: #7eae29;
     --dark: #4e4e4e;
+    --dark-heavi: #1f1f1f;
+    --gray: #f0f0f0;
 }
 *, *::before, *::after {
     box-sizing: border-box;
@@ -41,8 +44,13 @@ h1,h2,h3,h4,h5,h6{
 h2{
     font-size: calc(24px + (40 - 24) * ((100vw - 300px) / (1600 - 300)));
 }
-h5{
-    font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1600 - 300)));
+h3{
+    font-size: calc(22px + (30 - 22) * ((100vw - 300px) / (1600 - 300)));
+    letter-spacing: 1.7px;
+}
+h4{
+    font-size: calc(15px + (22 - 15) * ((100vw - 300px) / (1600 - 300)));
+    letter-spacing: 1.7px;
 }
 /*---generales--*/
 .divider{
@@ -120,6 +128,17 @@ h5{
 }
 .error{
     color: red !important;
+}
+.bg-green{
+    background-color: var(--verde-dark);
+    color: white;
+}
+.bg-dark-heavi{
+    background-color: var(--dark-heavi);
+    color: white;
+}
+.gb-gray{
+    background-color: var(--gray);
 }
 
 /*---- NAVBAR ----*/
@@ -316,3 +335,38 @@ a.language span:nth-child(2){
     font-size: calc(8px + (15 - 8) * ((100vw - 300px) / (1600 - 300)));
 }
 
+/*--- mission-vision ---*/
+.mission-vision{
+    background-color: var(--dark-heavi);
+    color: white !important;
+}
+.mission-vision .img-fluid{
+    max-width: 50%;
+    height: auto;
+}
+.mission-vision .divider{
+    margin-left: 0 !important;
+}
+/*--- dionisio ---*/
+.dionisio .divider{
+    width: 13%;
+    margin-left: 0 !important;
+    border: 3px solid var(--dark);
+    background-color: var(--dark);
+}
+/*--- martin - joel ---*/
+.joel .divider,
+.martin .divider,
+.bruno .divider{
+    width: 13%;
+    margin-left: 0 !important;
+    border: 3px solid var(--verde);
+    background-color: var(--verde);
+}
+
+#contact-aboutus{
+    background-image: url('../img/bg-dark-heavi.png');
+    background-color: white;
+    background-repeat: repeat-x;
+    background-size: 40% ;
+}
