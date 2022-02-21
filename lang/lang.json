@@ -102,7 +102,16 @@
   
     "joel":"Joel Carmona",
     "joel_text_1":" “It has been 8 years since I was introduced to the online marketplace industry. Gauss is definitely ahead of its time, and  their main focus  is  environmental solutions and creating opportunities to help people make money.",
-    "joel_text_2":"The founders Dionisio Simões and Martin Rojas are two outstanding people who were able to find a sustainable solution for a very real problem: plastic waste.” "
+    "joel_text_2":"The founders Dionisio Simões and Martin Rojas are two outstanding people who were able to find a sustainable solution for a very real problem: plastic waste.” ",
+  
+    "wdwd":"WHAT DO WE DO?",
+    "wdwd_text_1":"In the last 6 decades, humankind has been responsible for the mass production of plastic. This is accelerating and rapidly growing to a whopping 8.3 billion metric tons, and of course, most of that is in disposable products that cannot be recycled.",
+
+    "years":"400 years to degrade",
+    "years_text_1":"According to National Geographic, 91% of plastic is still not recycled. Plastic is one of those materials that take over 400 years to degrade, which means most of it still exists in some form. Even though only 12% of this plastic has been incinerated, this process is still responsible for the emission of toxic gases, which harm the planet's atmosphere.",
+
+    "acquisition":"ACQUISITION",
+    "acquisition_text_1":"Unfortunately, we live in a world where governments and powerful international organizations do not take drastic environmental action, so it's up to each of us to do whatever it takes to preserve not only the planet but life on the planet as well. Gauss invested heavily in the \"acquisition\" of the exploitation rights of a revolutionary patent that allows us to gradually alleviate this scourge."
   },
   "es":{
     "menu_lang":"Español",
@@ -190,9 +199,9 @@
     "team":"EL EQUIPO",
     "team_img":"img/texts/equipo.png",
     "team_member_1":"Patricia Simoes",
-    "team_member_1_desc_1":"Directora de comunicación",
+    "team_member_1_desc_1":"Directora de Comunicación",
     "team_member_2":"RICARDO GALRITO",
-    "team_member_2_desc_1":"Representante comercial",
+    "team_member_2_desc_1":"Representante Comercial",
     "team_member_2_desc_2":"EUROPA",
     "team_member_3":"RODRIGO ROJAS",
     "team_member_3_desc_1":"Responsable Comercial",
@@ -300,7 +309,7 @@
     "team_member_2_desc_1":"Representante Comercial",
     "team_member_2_desc_2":"EUROPA",
     "team_member_3":"RODRIGO ROJAS",
-    "team_member_3_desc_1":"Gerente de vendas",
+    "team_member_3_desc_1":"Gerente de Vendas",
     "team_member_3_desc_2":"AFRICA E O MÉDIO ORIENTE",
     "team_member_4":"JUAN ROJAS",
     "team_member_4_desc_1":"Representante Comercial",
