@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.2"
+   viewBox="0 0 1940 186.20367"
+   width="1940"
+   height="186.20367"
+   id="svg8"
+   sodipodi:docname="shape1.svg"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1364">
+      <rect
+         style="fill:#1f1f1f;fill-opacity:0;stroke:#ff0000;stroke-width:0.860883;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect1366"
+         width="1972.2598"
+         height="186.20367"
+         x="-5.0884771"
+         y="-438.34244" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1368">
+      <rect
+         style="fill:#1f1f1f;fill-opacity:0;stroke:#ff0000;stroke-width:0.860883;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect1370"
+         width="1972.2598"
+         height="186.20367"
+         x="-5.0884771"
+         y="-438.34244" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1364-3">
+      <rect
+         style="fill:#1f1f1f;fill-opacity:0;stroke:#ff0000;stroke-width:0.860883;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect1366-3"
+         width="1972.2598"
+         height="186.20367"
+         x="-5.0884771"
+         y="-438.34244" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1368-5">
+      <rect
+         style="fill:#1f1f1f;fill-opacity:0;stroke:#ff0000;stroke-width:0.860883;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect1370-3"
+         width="1972.2598"
+         height="186.20367"
+         x="-5.0884771"
+         y="-438.34244" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.69390459"
+     inkscape:cx="1041.2094"
+     inkscape:cy="148.43539"
+     inkscape:window-width="2880"
+     inkscape:window-height="1514"
+     inkscape:window-x="3229"
+     inkscape:window-y="540"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <style
+     id="style2">.s0{fill:#ffffff}.s1{opacity: .3;fill:#ffffff}</style>
+  <g
+     id="g769"
+     inkscape:label="g769"
+     transform="translate(-14)">
+    <path
+       class="s0"
+       d="m -4.0939016,-357.13336 760.0000016,-59 667.1999,96 233.8,-89 312,63 v 94 H -5.0939016 Z"
+       id="path4"
+       style="fill:#ffffff"
+       clip-path="url(#clipPath1364-3)"
+       transform="translate(5.0884771,438.34244)" />
+    <path
+       class="s1"
+       d="M 1970.006,-269.13336 H -1.9939016 v -94 l 311.7000016,-63 933.3,84 1015.9999,-109 -290,77 z"
+       id="path6"
+       style="opacity:0.3;fill:#ffffff"
+       clip-path="url(#clipPath1368-5)"
+       transform="translate(5.0884771,438.34244)" />
+  </g>
+  <rect
+     style="fill:#1f1f1f;fill-opacity:0;stroke:#ff0000;stroke-width:0.860883;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+     id="rect247"
+     width="1972.2598"
+     height="186.20367"
+     x="-25.528963"
+     y="236.64288" />
+</svg>

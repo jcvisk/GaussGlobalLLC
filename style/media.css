@@ -43,15 +43,33 @@
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+    /*
     .img-title h2{
-        /*font-size: calc(23px + (30 - 23) * ((100vw - 300px) / (1600 - 300))) !important; */
-        /*padding: 1.2rem 5rem !important;*/
+        font-size: calc(23px + (30 - 23) * ((100vw - 300px) / (1600 - 300))) !important;
+        padding: 1.2rem 5rem !important;
     }
+    */
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
     .img-contact{
         max-width: 110% !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .opportunity .desplazamiento{
+        margin-top: -20% !important;
+    }
+}
+@media (min-width: 992px) {
+    .opportunity .desplazamiento{
+        margin-top: -17% !important;
+    }
+}
+@media (min-width: 1200px) {
+    .opportunity .desplazamiento{
+        margin-top: -15% !important;
     }
 }

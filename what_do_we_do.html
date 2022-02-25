@@ -63,14 +63,14 @@
                             </a>
                         </div>
                         <div class="nav-item dropdown text-center">
-                            <a class="nav-link dropdown-toggle language" href="#" id="navbarDropdown" role="button"
+                            <a class="nav-link dropdown-toggle language" href="#" id="languageDropdown" role="button"
                                 data-toggle="dropdown" aria-expanded="false">
                                 <span>&nbsp;&nbsp;&nbsp;<span class="lang"
                                         key="menu_lang">English</span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                                 <span>&nbsp;&nbsp; <i class="fa fa-caret-down" aria-hidden="true"></i>
                                     &nbsp;&nbsp;</span>
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-menu" aria-labelledby="languageDropdown">
                                 <button class="dropdown-item translate" id="en">
                                     <img src="img/usa.png" alt="usa">
                                     English
@@ -97,23 +97,22 @@
                                 <a class="nav-link lang" href="#" key="menu_home">Home</a>
                             </li>
                             <li id="item2" class="nav-item dropdown text-center">
-                                <a class="nav-link dropdown-toggle lang" href="#_company" id="navbarDropdown"
+                                <a class="nav-link dropdown-toggle lang" href="#_company" id="companyDropdown"
                                     role="button" data-toggle="dropdown" aria-expanded="false" key="menu_company">
                                     Company
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu" aria-labelledby="companyDropdown">
                                     <a class="dropdown-item lang" href="aboutus.html" key="menu_aboutus">About us</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item lang" href="what_do_we_do.html" key="menu_whatdowedo">what
-                                        do we do</a>
+                                    <a class="dropdown-item lang" href="what_do_we_do.html" key="menu_whatdowedo">what do we do</a>
                                 </div>
                             </li>
                             <li id="item3" class="nav-item dropdown text-center">
-                                <a class="nav-link dropdown-toggle lang" href="#_products" id="navbarDropdown"
+                                <a class="nav-link dropdown-toggle lang" href="#_products" id="productsDropdown"
                                     role="button" data-toggle="dropdown" aria-expanded="false" key="menu_products">
                                     Products
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu" aria-labelledby="productsDropdown">
                                     <a class="dropdown-item lang" href="#" key="menu_powerplants">Power Plants</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item lang" href="#" key="menu_gausscoin">Gauss Coin</a>
@@ -141,12 +140,13 @@
     </header>
     <main>
         <!-- Slide -->
-        <section>
-            <img src="img/slides/2.png" alt="slide 1" class="img-fluid w-100">
+        <section class="position-relative slide">
+            <img src="img/slides/1.png" alt="slide 1" class="img-fluid w-100">
+            <div class="shape-bottom"></div>
         </section>
         <!-- what do we do -->
-        <section class="position-relative what-do-we-do py-5">
-            <div class="container-fluid py-5">
+        <section class="position-relative what-do-we-do">
+            <div class="container-fluid pb-5">
                 <div class="row align-items-center">
                     <div class="col-12 col-md-6">
                         <h2 class="text-uppercase my-0 lang" key="wdwd">
@@ -167,10 +167,10 @@
                     </div>
                 </div>
             </div>
-            <div class="shape2"></div>
+            <div class="shape-bottom"></div>
         </section>
         <!-- 400 years -->
-        <section class="position-relative years-400 py-5">
+        <section class="position-relative years-400 pb-5">
             <div class="container-fluid py-5">
                 <div class="row align-items-center">
                     <div class="col-12 col-md-6 order-md-2">
@@ -193,7 +193,7 @@
                     </div>
                 </div>
             </div>
-            <div class="shape3"></div>
+            <div class="shape-bottom"></div>
         </section>
         <!-- ACQUISITION -->
         <section class="position-relative acquisition py-5">
@@ -213,15 +213,15 @@
                         </div>
                     </div>
                     <div class="col-12 col-md-6 text-center">
-                        <img src="img/icons/logo.png" alt="logo" class="img-fluid-70">
+                        <img src="img/icons/logo.png" alt="logo" class="img-fluid-40">
                     </div>
                 </div>
             </div>
         </section>
         <!-- contact -->
-        <section class="contact position-relative" id="contact-wdwd">
-            <div class="shape4"></div>
-            <div class="container-fluid">
+        <section class="contact contact-v2">
+            <div class="shape-top"></div>
+            <div class="container-fluid ">
                 <div class="row contact-container">
                     <div class="col-12 col-lg-6">
                         <form class="form p-3 p-md-5" id="contact-form" method="POST">
@@ -314,7 +314,7 @@
                 <div class="row align-content-between align-items-center">
                     <div class="col-12 col-md-5 col-lg-6">
                         <a class="navbar-brand" href="#">
-                            <img src="img/logo.png" alt="logo" class="img-rps" id="logo">
+                            <img src="img/logo.png" alt="logo" class="_img-rps">
                         </a>
                     </div>
                     <div class="col-12 col-md-7 col-lg-6">
@@ -331,25 +331,24 @@
                                         <a class="nav-link lang" href="#" key="menu_home">Home</a>
                                     </li>
                                     <li id="item8" class="nav-item dropup text-center">
-                                        <a class="nav-link dropdown-toggle lang" href="#_company" id="navbarDropdown"
-                                            role="button" data-toggle="dropdown" aria-expanded="false"
-                                            key="menu_company">
+                                        <a class="nav-link dropdown-toggle lang" href="#_company"
+                                            id="companyDropdownFooter" role="button" data-toggle="dropdown"
+                                            aria-expanded="false" key="menu_company">
                                             Company
                                         </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="dropdown-menu" aria-labelledby="companyDropdownFooter">
                                             <a class="dropdown-item lang" href="#" key="menu_aboutus">About us</a>
                                             <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item lang" href="#" key="menu_whatdowedo">what do we
-                                                do</a>
+                                            <a class="dropdown-item lang" href="#" key="menu_whatdowedo">what do we do</a>
                                         </div>
                                     </li>
                                     <li id="item9" class="nav-item dropup text-center">
-                                        <a class="nav-link dropdown-toggle lang" href="#_products" id="navbarDropdown"
-                                            role="button" data-toggle="dropdown" aria-expanded="false"
-                                            key="menu_products">
+                                        <a class="nav-link dropdown-toggle lang" href="#_products"
+                                            id="productsDropdownFooter" role="button" data-toggle="dropdown"
+                                            aria-expanded="false" key="menu_products">
                                             Products
                                         </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="dropdown-menu" aria-labelledby="productsDropdownFooter">
                                             <a class="dropdown-item lang" href="#" key="menu_powerplants">Power
                                                 Plants</a>
                                             <div class="dropdown-divider"></div>

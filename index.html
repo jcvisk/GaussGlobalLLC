@@ -25,17 +25,17 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta id="metatagUrlFacebook" property="og:url" content="">
+    <meta property="og:url" content="favicon.png">
     <meta property="og:title" content="Gauss Global">
     <meta property="og:description" content="The Future is Now. The Future is Green!">
-    <meta id="metatagFaviconFacebook" property="og:image" content="">
+    <meta property="og:image" content="favicon.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta id="metatagUrlTwitter" property="twitter:url" content="">
+    <meta property="twitter:url" content="favicon.png">
     <meta property="twitter:title" content="Gauss Global">
     <meta property="twitter:description" content="The Future is Now. The Future is Green!">
-    <meta id="metatagFaviconTwitter" property="twitter:image" content="">
+    <meta property="twitter:image" content="favicon.png">
 </head>
 
 <body>
@@ -63,14 +63,14 @@
                             </a>
                         </div>
                         <div class="nav-item dropdown text-center">
-                            <a class="nav-link dropdown-toggle language" href="#" id="navbarDropdown" role="button"
+                            <a class="nav-link dropdown-toggle language" href="#" id="languageDropdown" role="button"
                                 data-toggle="dropdown" aria-expanded="false">
                                 <span>&nbsp;&nbsp;&nbsp;<span class="lang"
                                         key="menu_lang">English</span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
                                 <span>&nbsp;&nbsp; <i class="fa fa-caret-down" aria-hidden="true"></i>
                                     &nbsp;&nbsp;</span>
                             </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="dropdown-menu" aria-labelledby="languageDropdown">
                                 <button class="dropdown-item translate" id="en">
                                     <img src="img/usa.png" alt="usa">
                                     English
@@ -97,22 +97,22 @@
                                 <a class="nav-link lang" href="#" key="menu_home">Home</a>
                             </li>
                             <li id="item2" class="nav-item dropdown text-center">
-                                <a class="nav-link dropdown-toggle lang" href="#_company" id="navbarDropdown"
+                                <a class="nav-link dropdown-toggle lang" href="#_company" id="companyDropdown"
                                     role="button" data-toggle="dropdown" aria-expanded="false" key="menu_company">
                                     Company
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu" aria-labelledby="companyDropdown">
                                     <a class="dropdown-item lang" href="aboutus.html" key="menu_aboutus">About us</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item lang" href="what_do_we_do.html" key="menu_whatdowedo">what do we do</a>
                                 </div>
                             </li>
                             <li id="item3" class="nav-item dropdown text-center">
-                                <a class="nav-link dropdown-toggle lang" href="#_products" id="navbarDropdown"
+                                <a class="nav-link dropdown-toggle lang" href="#_products" id="productsDropdown"
                                     role="button" data-toggle="dropdown" aria-expanded="false" key="menu_products">
                                     Products
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu" aria-labelledby="productsDropdown">
                                     <a class="dropdown-item lang" href="#" key="menu_powerplants">Power Plants</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item lang" href="#" key="menu_gausscoin">Gauss Coin</a>
@@ -140,7 +140,7 @@
     </header>
     <main>
         <!-- Video -->
-        <section>
+        <section class="position-relative video" style="padding: 0; margin: 0;">
             <div class="embed-responsive embed-responsive-16by9 d-none d-md-block d-lg-none d-lg-block d-xl-none d-xl-block"
                 style="background-color: #000000;">
                 <video class="w-100" autoplay loop muted playsinline>
@@ -153,6 +153,7 @@
                     <source src="video/GaussGlobal-EN-compress-sm.mp4" type="video/mp4" />
                 </video>
             </div>
+            <div class="shape-bottom"></div>
         </section>
         <!-- company -->
         <section>
@@ -191,9 +192,9 @@
             </div>
         </section>
         <!-- products -->
-        <section id="products" class="products pb-5">
+        <section class="products pb-5">
             <div class="container-fluid">
-                <div class="title">
+                <div class="title" style="z-index: 1 !important;">
                     <img src="img/texts/products.png" alt="products" class="img-fluid img-text wow animate__animated animate__zoomIn lang" key="products_img">
                     <h2 class="text-uppercase my-0 lang" key="products">
                         PRODUCTS
@@ -201,8 +202,8 @@
                     <hr class="divider my-0">
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-12 col-md-10">
-                        <div class="text-center position-relative">
+                    <div class="col-12 col-md-10" style="z-index: 1;">
+                        <div class="text-center position-relative" style="z-index: 1 !important;">
                             <img src="img/power-plant.png" alt="power-plants" class="img-fluid">
                             <div class="img-title">
                                 <h2 class="lang wow animate__animated animate__slideInDown" key="products_img_title">POWER PLANT</h2>
@@ -222,10 +223,14 @@
                     </div>
                 </div>
             </div>
+            <div class="shape-top"></div>
         </section>
         <!-- gauss coin -->
-        <section class="gauss_coin py-5">
-            <div class="container-fluid">
+        <section class="gauss_coin">
+            <div>
+                <img src="img/shapes/shape3.svg" alt="shape" class="img-fluid">
+            </div>
+            <div class="container-fluid mb-15">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-10">
                         <div class="text-center mb-5">
@@ -241,18 +246,21 @@
                             Our affiliates are our priority and with every product we launch we want them to feel proud
                             of our work.
                         </p>
-                        <div class="text-center mt-5" id="_opportunity">
+                        <div class="text-center mt-5">
                             <a href="#" class="btn btn-view_more lang" key="btn_view_more">VIEW MORE</a>
                         </div>
                     </div>
                 </div>
             </div>
+            <div>
+                <img src="img/shapes/shape4.svg" alt="shape" class="img-fluid">
+            </div>
         </section>
         <!-- opportunity -->
-        <section class="opportunity py-5">
+        <section class="opportunity pb-5">
             <div class="container-fluid">
                 <div class="row justify-content-center">
-                    <div class="col-10">
+                    <div class="col-10 desplazamiento">
                         <div class="text-center position-relative">
                             <img src="../img/opportunity.png" alt="opportunity" class="img-fluid">
                             <div class="img-title">
@@ -260,13 +268,13 @@
                             </div>
                         </div>
                         <br><br>
-                        <p class="txt text-center mt-5 wow animate__animated animate__zoomIn lang" id="_contact" key="opportunity_text_1">
+                        <p class="txt text-center mt-5 wow animate__animated animate__zoomIn lang" key="opportunity_text_1">
                             Stop swapping your time for money. Earn residual income.
                         </p>
                         <p class="txt text-center wow animate__animated animate__zoomIn lang" key="opportunity_text_2"">
                             The life you want is awaiting. All you have to do is take the first step.
                         </p>
-                        <p class=" txt text-center mb-5 wow animate__animated animate__zoomIn lang" id="_contact" key="opportunity_text_3">
+                        <p class=" txt text-center mb-5 wow animate__animated animate__zoomIn lang" key="opportunity_text_3">
                             Start your journey.
                         </p>
                         <div class="text-center">
@@ -277,7 +285,8 @@
             </div>
         </section>
         <!-- contact -->
-        <section class="contact">
+        <section class="contact contact-v1">
+            <div class="shape-top"></div>
             <div class="container-fluid ">
                 <div class="row contact-container">
                     <div class="col-12 col-lg-6">
@@ -371,7 +380,7 @@
                 <div class="row align-content-between align-items-center">
                     <div class="col-12 col-md-5 col-lg-6">
                         <a class="navbar-brand" href="#">
-                            <img src="img/logo.png" alt="logo" class="img-rps" id="logo">
+                            <img src="img/logo.png" alt="logo" class="_img-rps">
                         </a>
                     </div>
                     <div class="col-12 col-md-7 col-lg-6">
@@ -389,24 +398,23 @@
                                     </li>
                                     <li id="item8" class="nav-item dropup text-center">
                                         <a class="nav-link dropdown-toggle lang" href="#_company"
-                                            id="navbarDropdown" role="button" data-toggle="dropdown"
+                                            id="companyDropdownFooter" role="button" data-toggle="dropdown"
                                             aria-expanded="false" key="menu_company">
                                             Company
                                         </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="dropdown-menu" aria-labelledby="companyDropdownFooter">
                                             <a class="dropdown-item lang" href="#" key="menu_aboutus">About us</a>
                                             <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item lang" href="#" key="menu_whatdowedo">what do we
-                                                do</a>
+                                            <a class="dropdown-item lang" href="#" key="menu_whatdowedo">what do we do</a>
                                         </div>
                                     </li>
                                     <li id="item9" class="nav-item dropup text-center">
                                         <a class="nav-link dropdown-toggle lang" href="#_products"
-                                            id="navbarDropdown" role="button" data-toggle="dropdown"
+                                            id="productsDropdownFooter" role="button" data-toggle="dropdown"
                                             aria-expanded="false" key="menu_products">
                                             Products
                                         </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <div class="dropdown-menu" aria-labelledby="productsDropdownFooter">
                                             <a class="dropdown-item lang" href="#" key="menu_powerplants">Power
                                                 Plants</a>
                                             <div class="dropdown-divider"></div>

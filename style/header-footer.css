@@ -1,0 +1,104 @@
+/*--------------------
+        HEADER 
+--------------------*/
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../img/toggler-icon.svg);
+}
+.navbar-toggler {
+    border: none !important;
+}
+#nav{
+    background-color: #fcfcfc;
+    background-position-y: bottom;
+    background-position-x: left;
+    background-size: cover;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-family: "lato-black";
+    color: var(--dark) !important;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color: var(--verde) !important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--verde) !important;
+}
+.social-media{
+    display: block;
+    padding: .5rem 1rem;
+}
+.social-media a{
+    padding: 0 .5rem;
+    color: var(--dark);
+}
+.social-media a:hover{
+    color: var(--verde);
+}
+
+.dropdown-toggle::after{
+    content: none !important;
+}
+.nav-top .dropdown:hover>.dropdown-menu,
+ul.navbar-nav li.dropdown:hover>.dropdown-menu,
+ul.navbar-nav li.dropup:hover>.dropdown-menu {
+    display: block;
+}
+.navbar-light .navbar-nav .dropdown-item {
+    font-family: "lato-black";
+    color: var(--dark) !important;
+}
+.nav-top .translate:hover,
+.nav-top .translate:focus{
+    background-color: var(--verde);
+    color: white;
+    font-family: "lato-bold";
+}
+
+a.login{
+    font-family: "lato-black";
+    color: var(--dark);
+}
+a.login:hover{
+    color: var(--verde);
+}
+a.language span:nth-child(1){
+    font-family: "lato" !important;
+    text-transform: initial;
+    background-color: #ededed;
+    color: #42494f !important;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: -5px;
+}
+a.language span:nth-child(2){
+    font-family: "lato" !important;
+    text-transform: initial;
+    background-color: var(--verde);
+    color: #42494f !important;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.img-rps {
+    width: calc(100px + (250 - 100) * ((100vw - 300px) / (1600 - 300)));
+    transition: ease 1s;
+}
+._img-rps {
+    width: calc(75px + (200 - 75) * ((100vw - 300px) / (1600 - 300)));
+    transition: ease 1s;
+}
+
+/*--------------------
+        FOOTER 
+--------------------*/
+.footer .border-top{
+    border-top: 1px solid var(--verde) !important;
+}
+.footer .nav-link{
+    font-size: calc(8px + (15 - 8) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.footer .navbar-light .navbar-nav .dropdown-item{
+    font-family: "lato-black";
+    color: var(--dark) !important;
+    font-size: calc(8px + (15 - 8) * ((100vw - 300px) / (1600 - 300)));
+}

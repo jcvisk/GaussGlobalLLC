@@ -1,4 +1,5 @@
 @import url('media.css');
+@import url('header-footer.css');
 
 :root{
     --verde: #9dd23f;
@@ -52,7 +53,6 @@ h4{
     font-size: calc(15px + (22 - 15) * ((100vw - 300px) / (1600 - 300)));
     letter-spacing: 1.7px;
 }
-/*---generales--*/
 .divider{
     border: 3px solid var(--verde);
     background-color: var(--verde);
@@ -64,6 +64,7 @@ h4{
     padding-right: 7% !important;
     padding-left: 7% !important;
 }
+
 .my-10{
     margin-top: 11.5%;
     margin-bottom: 11.5%;
@@ -73,6 +74,9 @@ h4{
 }
 .mt-15{
     margin-top: 9rem;
+}
+.mb-15{
+    margin-bottom: 9rem;
 }
 .py-10{
     padding-top: 10%;
@@ -144,132 +148,14 @@ h4{
     max-width: 70%;
     height: auto;
 }
-
-/*---- NAVBAR ----*/
-.navbar-light .navbar-toggler-icon {
-    background-image: url(../img/toggler-icon.svg);
-}
-.navbar-toggler {
-    border: none !important;
-}
-#nav{
-    background-color: #fcfcfc;
-    background-position-y: bottom;
-    background-position-x: left;
-    background-size: cover;
-}
-.navbar-light .navbar-nav .nav-link {
-    font-family: "lato-black";
-    color: var(--dark) !important;
-}
-.navbar-light .navbar-nav .active>.nav-link {
-    color: var(--verde) !important;
-}
-.navbar-light .navbar-nav .nav-link:hover {
-    color: var(--verde) !important;
-}
-.social-media{
-    display: block;
-    padding: .5rem 1rem;
-}
-.social-media a{
-    padding: 0 .5rem;
-    color: var(--dark);
-}
-.social-media a:hover{
-    color: var(--verde);
-}
-
-.dropdown-toggle::after{
-    content: none !important;
-}
-.nav-top .dropdown:hover>.dropdown-menu,
-ul.navbar-nav li.dropdown:hover>.dropdown-menu,
-ul.navbar-nav li.dropup:hover>.dropdown-menu {
-    display: block;
-}
-.navbar-light .navbar-nav .dropdown-item {
-    font-family: "lato-black";
-    color: var(--dark) !important;
-}
-.nav-top .translate:hover,
-.nav-top .translate:focus{
-    background-color: var(--verde);
-    color: white;
-    font-family: "lato-bold";
-}
-
-a.login{
-    font-family: "lato-black";
-    color: var(--dark);
-}
-a.login:hover{
-    color: var(--verde);
-}
-a.language span:nth-child(1){
-    font-family: "lato" !important;
-    text-transform: initial;
-    background-color: #ededed;
-    color: #42494f !important;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-right: -5px;
-}
-a.language span:nth-child(2){
-    font-family: "lato" !important;
-    text-transform: initial;
-    background-color: var(--verde);
-    color: #42494f !important;
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-.img-rps {
-    width: calc(100px + (250 - 100) * ((100vw - 300px) / (1600 - 300)));
-    transition: ease 1s;
-}
-._img-rps {
-    width: calc(75px + (200 - 75) * ((100vw - 300px) / (1600 - 300)));
-    transition: ease 1s;
-}
-/*--- products ---*/
-.products{
-    background-image: url('../img/bg-white.png');
-    background-color: #1f1f1f;
-    background-repeat: repeat-x;
-    background-size: 40% ;
-}
-.products p{
-    color: white;
-}
-.products .btn-view_more:hover{
-    color: white;
-    border-color: white;
-    background-color: transparent;
-}
-
-/*--- gauss coin ---*/
-.gauss_coin{
-    background-image: url('../img/bg.png');
-    background-position-y: center;
-    background-position-x: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.img-coin{
-    max-width: calc(230px + (370 - 230) * ((100vw - 300px) / (1600 - 300)));;
+.img-fluid-40{
+    max-width: 40%;
     height: auto;
 }
-/*--- opportunity ---*/
-.opportunity{
-    background-color: #7eae29;
-    color: white;
-}
+
 /*--- contact-container ---*/
 .contact{
-    background-image: url('../img/bg-green.png');
-    background-color: white;
-    background-repeat: repeat-x;
-    background-size: 40% ;
+    position: relative;
 }
 .contact-container{
     background-color: #2e2e2e;
@@ -325,18 +211,130 @@ a.language span:nth-child(2){
     max-width: 70%;
     height: auto;
 }
-/*--- footer ---*/
-.footer .border-top{
-    border-top: 1px solid var(--verde) !important;
-}
-.footer .nav-link{
-    font-size: calc(8px + (15 - 8) * ((100vw - 300px) / (1600 - 300)));
+
+.shape-top,
+.shape-bottom{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-.footer .navbar-light .navbar-nav .dropdown-item{
-    font-family: "lato-black";
-    color: var(--dark) !important;
-    font-size: calc(8px + (15 - 8) * ((100vw - 300px) / (1600 - 300)));
+.shape-top{
+    top: -1px;
+    background-position: top;
+}
+.shape-bottom{
+    bottom: -1px;
+    background-position: bottom;
+}
+
+.slide .shape-bottom{
+    background-image: url(../img/shapes/shape1.svg);
+}
+
+.contact-v1 .shape-top{
+    background-image: url(../img/shapes/shape5.svg);
+    z-index: -1;
+}
+.contact-v2 .shape-top{
+    background-image: url(../img/shapes/shape8.svg);
+    z-index: -1;
+}
+
+
+/*--------------------
+        INDEX 
+--------------------*/
+
+/*---   video  ---*/
+.video .shape-bottom{
+    background-image: url(../img/shapes/shape1.svg);
+}
+
+/*--- products ---*/
+.products{
+    position: relative;
+    background-color: #1f1f1f;
+}
+.products .shape-top{
+    background-image: url(../img/shapes/shape2.svg);
+}
+.products p{
+    color: white;
+}
+.products .btn-view_more:hover{
+    color: white;
+    border-color: white;
+    background-color: transparent;
+}
+
+/*--- gauss coin ---*/
+.gauss_coin{
+    background-image: url('../img/bg.png');
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-coin{
+    max-width: calc(230px + (370 - 230) * ((100vw - 300px) / (1600 - 300)));
+    height: auto;
+}
+/*--- opportunity ---*/
+.opportunity{
+    background-color: #7eae29;
+    color: white;
+}
+.opportunity .desplazamiento{
+    margin-top: -30%;
+}
+
+/*--------------------
+    WHAT DO WE DO 
+--------------------*/
+
+.what-do-we-do .divider{
+    width: 13%;
+    margin-left: 0 !important;
+}
+.what-do-we-do .shape-bottom{
+    background-image: url(../img/shapes/shape6.svg);
+}
+
+.years-400{
+    background-color: var(--verde);
+}
+.years-400 .shape-bottom{
+    background-image: url(../img/shapes/shape7.svg);
+    z-index: 1;
+}
+.years-400 .divider{
+    width: 13%;
+    margin-left: 0 !important;
+    border: 3px solid white;
+    background-color: white;
+}
+.acquisition{
+    background-color: var(--dark-heavi);
+    color: white;
+}
+.acquisition .divider{
+    width: 13%;
+    margin-left: 0 !important;
+}
+
+/*--------------------
+    ABOUT US 
+--------------------*/
+
+/*--- HOW ARE WE? ---*/
+.who-are-we .shape-bottom{
+    background-image: url(../img/shapes/shape9.svg);
 }
 
 /*--- mission-vision ---*/
@@ -368,76 +366,39 @@ a.language span:nth-child(2){
     background-color: var(--verde);
 }
 
-#contact-aboutus{
-    background-image: url('../img/bg-dark-heavi.png');
-    background-color: white;
-    background-repeat: repeat-x;
-    background-size: 40% ;
+.bruno{
+    background-color: var(--gray);
 }
 
+/*--------------------
+    WHAT DO WE DO 
+--------------------*/
 
-
-
-
-
-
-.what-do-we-do .divider{
+.problem .shape-bottom{
+    background-image: url(../img/shapes/shape11.svg);
+}
+.problem .divider{
     width: 13%;
     margin-left: 0 !important;
 }
-.shape2{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    bottom: -1px;
-    background-image: url(../img/shape2.svg);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: contain;
+/*--- solution ---*/
+.solution{
+    background-color: #9dd23f;
 }
-
-.years-400{
-    background-color: var(--verde);
-}
-.years-400 .divider{
+.solution .divider{
     width: 13%;
     margin-left: 0 !important;
-    border: 3px solid white;
-    background-color: white;
+    background-color: white !important;
+    border: 3px solid white !important;
 }
-.shape3{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: -1px;
-    bottom: -1px;
-    background-image: url(../img/shape3.svg);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.acquisition{
+/*--- power-plants ---*/
+.power-plants{
     background-color: var(--dark-heavi);
     color: white;
 }
-.acquisition .divider{
+.power-plants .divider{
     width: 13%;
     margin-left: 0 !important;
-}
-#contact-wdwd{
-    background-image: none !important;
-    background-color: transparent !important; 
-}
-.shape4{
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: -2px;
-    background-image: url(../img/shape4.svg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-color: var(--verde) !important;
+    border: 3px solid var(--verde) !important;
 }
