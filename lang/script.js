@@ -23,6 +23,9 @@ $(document).ready(function () {
             $(this).text(content);
           }
           break;
+        case 'h1':
+          $(this).text(content);
+          break;
         case 'h2':
           $(this).text(content);
           break;
@@ -80,6 +83,9 @@ $(document).ready(function () {
             } else {
               $(this).text(content);
             }
+            break;
+          case 'h1':
+            $(this).text(content);
             break;
           case 'h2':
             $(this).text(content);
