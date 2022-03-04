@@ -20,7 +20,7 @@ $(document).ready(function () {
           if ($(this).attr('data-video-id')) {
             $(this).attr('data-video-id', content);
           } else {
-            $(this).text(content);
+            $(this).attr('href', content);
           }
           break;
         case 'h1':
@@ -81,7 +81,7 @@ $(document).ready(function () {
             if ($(this).attr('data-video-id')) {
               $(this).attr('data-video-id', content);
             } else {
-              $(this).text(content);
+              $(this).attr('href', content);
             }
             break;
           case 'h1':

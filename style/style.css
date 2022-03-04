@@ -42,6 +42,18 @@ body{
     font-family: "lato-bold";
     src: url(../assets/fonts/Lato/Lato-Bold.ttf);
 }
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url(../assets/fonts/Work_Sans/static/WorkSans-Medium.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Bold";
+    src: url(../assets/fonts/Work_Sans/static/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: "WorkSans-SemiBold";
+    src: url(../assets/fonts/Work_Sans/static/WorkSans-SemiBold.ttf);
+}
 h1,h2,h3,h4,h5,h6{
     font-family: "lato-black";
     letter-spacing: 4px;
@@ -508,6 +520,31 @@ h4{
 /*--------------------
     G-COIN 
 --------------------*/
+.gcoin-slide .text-container{
+    top: 20%;
+}
+.slide .text-gcoin :nth-child(1){
+    font-family: "WorkSans-Medium";
+    font-size: calc(20px + (65 - 20) * ((100vw - 300px) / (1600 - 300)));
+    letter-spacing: 1px !important;
+    color: white;
+}
+.slide .text-gcoin :nth-child(2){
+    font-family: "WorkSans-Bold";
+    font-size: calc(20px + (55 - 20) * ((100vw - 300px) / (1600 - 300)));
+    background-color: var(--verde);
+    color: var(--dark-heavi);
+    display: inline-block;
+    *padding-left: 20px;
+    *padding-right: 20px;
+    letter-spacing: 1px !important;
+}
+.slide .text-gcoin :nth-child(3){
+    font-family: "WorkSans-SemiBold";
+    font-size: calc(24px + (85 - 24) * ((100vw - 300px) / (1600 - 300)));
+    letter-spacing: 1px !important;
+    color: white;
+}
 
 .coin{
     background-image: url(../img/ng.png);
@@ -517,6 +554,11 @@ h4{
     margin-top: -7%;
     height: calc(400px + (1200 - 400) * ((100vw - 300px) / (1600 - 300)));;
 }
+.gcoin .divider{
+    width: 13%;
+    margin-left: 0 !important;
+}
+
 .coin .searador{
     height: calc(70px + (250 - 70) * ((100vw - 300px) / (1600 - 300)));;
 }
