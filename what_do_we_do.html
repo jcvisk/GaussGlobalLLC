@@ -93,39 +93,43 @@
 
                     <div class="col-12">
                         <ul class="navbar-nav justify-content-end text-uppercase align-items-center">
-                            <li id="item1" class="nav-item active">
-                                <a class="nav-link lang" href="#" key="menu_home">Home</a>
+                            <li id="item1" class="nav-item">
+                                <a class="nav-link lang" href="index.html" key="menu_home">Home</a>
                             </li>
-                            <li id="item2" class="nav-item dropdown text-center">
-                                <a class="nav-link dropdown-toggle lang" href="#_company" id="companyDropdown"
-                                    role="button" data-toggle="dropdown" aria-expanded="false" key="menu_company">
+                            <li id="item2" class="nav-item dropdown text-center active">
+                                <a class="nav-link dropdown-toggle lang" href="#" id="companyDropdown" role="button"
+                                    data-toggle="dropdown" aria-expanded="false" key="menu_company">
                                     Company
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="companyDropdown">
                                     <a class="dropdown-item lang" href="aboutus.html" key="menu_aboutus">About us</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item lang" href="what_do_we_do.html" key="menu_whatdowedo">what do we do</a>
+                                    <a class="dropdown-item active lang" href="what_do_we_do.html"
+                                        key="menu_whatdowedo">what do we do</a>
                                 </div>
                             </li>
                             <li id="item3" class="nav-item dropdown text-center">
-                                <a class="nav-link dropdown-toggle lang" href="#_products" id="productsDropdown"
-                                    role="button" data-toggle="dropdown" aria-expanded="false" key="menu_products">
+                                <a class="nav-link dropdown-toggle lang" href="#" id="productsDropdown" role="button"
+                                    data-toggle="dropdown" aria-expanded="false" key="menu_products">
                                     Products
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="productsDropdown">
-                                    <a class="dropdown-item lang" href="power_plants.html" key="menu_powerplants">Power Plants</a>
+                                    <a class="dropdown-item lang" href="power_plants.html" key="menu_powerplants">Power
+                                        Plants</a>
+                                    <!-- 
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item lang" href="#" key="menu_gausscoin">Gauss Coin</a>
+                                    <a class="dropdown-item lang" href="gcoin.html" key="menu_gausscoin">Gauss Coin</a>
+                                     -->
                                 </div>
                             </li>
                             <li id="item4" class="nav-item">
-                                <a class="nav-link lang" href="#_opportunity" key="menu_opportunity">Opportunity</a>
+                                <a class="nav-link lang" href="opportunity.html" key="menu_opportunity">Opportunity</a>
                             </li>
                             <li id="item5" class="nav-item">
-                                <a class="nav-link lang" href="#_news" key="menu_news">News</a>
+                                <a class="nav-link lang" href="#" key="menu_news">News</a>
                             </li>
                             <li id="item6" class="nav-item">
-                                <a class="nav-link lang" href="#_contact" key="menu_contact">Contact</a>
+                                <a class="nav-link lang" href="contact.html" key="menu_contact">Contact</a>
                             </li>
                             <li class="nav-item ">
                                 <a class="nav-link" href="https://join.gaussgloballlc.com" target="_blank">
@@ -156,9 +160,8 @@
                         <div class="text-justify mt-3">
                             <p class="txt wow animate__animated animate__zoomIn lang" key="wdwd_text_1">
                                 In the last 6 decades, humankind has been responsible for the mass production of
-                                plastic.
-                                This is accelerating and rapidly growing to a whopping 8.3 billion metric tons, and of
-                                course, most of that is in disposable products that cannot be recycled.
+                                plastic. This is accelerating and rapidly growing to a whopping 8.3 billion metric tons,
+                                and of course most of that is in disposable products that cannot be recycled.
                             </p>
                         </div>
                     </div>
@@ -181,7 +184,7 @@
                         <div class="text-justify mt-3">
                             <p class="txt wow animate__animated animate__zoomIn lang" key="years_text_1">
                                 According to National Geographic, 91% of plastic is still not recycled. Plastic is one
-                                of those materials that take over 400 years to degrade, which means most of it still
+                                of those materials that takes over 400 years to degrade, which means most of it still
                                 exists in some form. Even though only 12% of this plastic has been incinerated, this
                                 process is still responsible for the emission of toxic gases, which harm the planet's
                                 atmosphere.
@@ -204,11 +207,11 @@
                         <hr class="divider my-0">
                         <div class="text-justify mt-3">
                             <p class="txt wow animate__animated animate__zoomIn lang" key="acquisition_text_1">
-                                Unfortunately, we live in a world where governments and powerful international organizations
-                                do not take drastic environmental action, so it's up to each of us to do whatever it takes
-                                to preserve not only the planet but life on the planet as well. Gauss invested heavily in
-                                the "acquisition" of the exploitation rights of a revolutionary patent that allows us to
-                                gradually alleviate this scourge.
+                                Unfortunately, we live in a world where governments and powerful international
+                                organizations do not take drastic environmental action, so it's up to each of us to do
+                                whatever it takes to preserve not only the planet, but life on the planet as well. Gauss
+                                invested heavily in the "acquisition" of the exploitation rights of a revolutionary
+                                patent that allows us to gradually alleviate this scourge.
                             </p>
                         </div>
                     </div>
@@ -285,13 +288,16 @@
                                     <div class="modal-body p-0">
                                         <div class="alert alert-success m-0" role="alert">
                                             <p class="lang d-none" key="email_status_success" id="email-success">
-                                                Your message has been sent successfully. In the next 48 hours, one of our executives will contact you.
+                                                Your message has been sent successfully. In the next 48 hours, one of
+                                                our executives will contact you.
                                             </p>
-                                            <p class="lang d-none" key="email_status_unsuccessful" id="email-unsuccessful">
+                                            <p class="lang d-none" key="email_status_unsuccessful"
+                                                id="email-unsuccessful">
                                                 Unsuccessful
                                             </p>
                                             <div class="text-right">
-                                                <button class="btn lang" id="emailSuccessModalOk" key="btn_accept_modal">Accept</button>
+                                                <button class="btn lang" id="emailSuccessModalOk"
+                                                    key="btn_accept_modal">Accept</button>
                                             </div>
                                         </div>
 
@@ -327,44 +333,49 @@
 
                             <div class="col-12">
                                 <ul class="navbar-nav justify-content-end text-uppercase align-items-center">
-                                    <li id="item7" class="nav-item active">
-                                        <a class="nav-link lang" href="#" key="menu_home">Home</a>
+                                    <li id="item7" class="nav-item">
+                                        <a class="nav-link lang" href="index.html" key="menu_home">Home</a>
                                     </li>
-                                    <li id="item8" class="nav-item dropup text-center">
-                                        <a class="nav-link dropdown-toggle lang" href="#_company"
-                                            id="companyDropdownFooter" role="button" data-toggle="dropdown"
-                                            aria-expanded="false" key="menu_company">
+                                    <li id="item8" class="nav-item dropup text-center active">
+                                        <a class="nav-link dropdown-toggle lang" href="#" id="companyDropdownFooter"
+                                            role="button" data-toggle="dropdown" aria-expanded="false"
+                                            key="menu_company">
                                             Company
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="companyDropdownFooter">
-                                            <a class="dropdown-item lang" href="#" key="menu_aboutus">About us</a>
+                                            <a class="dropdown-item lang" href="aboutus.html" key="menu_aboutus">About
+                                                us</a>
                                             <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item lang" href="#" key="menu_whatdowedo">what do we do</a>
+                                            <a class="dropdown-item active lang" href="what_do_we_do.html"
+                                                key="menu_whatdowedo">what do we do</a>
                                         </div>
                                     </li>
                                     <li id="item9" class="nav-item dropup text-center">
-                                        <a class="nav-link dropdown-toggle lang" href="#_products"
-                                            id="productsDropdownFooter" role="button" data-toggle="dropdown"
-                                            aria-expanded="false" key="menu_products">
+                                        <a class="nav-link dropdown-toggle lang" href="#" id="productsDropdownFooter"
+                                            role="button" data-toggle="dropdown" aria-expanded="false"
+                                            key="menu_products">
                                             Products
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="productsDropdownFooter">
-                                            <a class="dropdown-item lang" href="#" key="menu_powerplants">Power
+                                            <a class="dropdown-item lang" href="power_plants.html"
+                                                key="menu_powerplants">Power
                                                 Plants</a>
+                                            <!-- 
                                             <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item lang" href="#" key="menu_gausscoin">Gauss
+                                            <a class="dropdown-item lang" href="gcoin.html" key="menu_gausscoin">Gauss
                                                 Coin</a>
+                                                 -->
                                         </div>
                                     </li>
                                     <li id="item10" class="nav-item">
-                                        <a class="nav-link lang" href="#_opportunity"
+                                        <a class="nav-link lang" href="opportunity.html"
                                             key="menu_opportunity">Opportunity</a>
                                     </li>
                                     <li id="item11" class="nav-item">
-                                        <a class="nav-link lang" href="#_news" key="menu_news">News</a>
+                                        <a class="nav-link lang" href="#" key="menu_news">News</a>
                                     </li>
                                     <li id="item12" class="nav-item">
-                                        <a class="nav-link lang" href="#_contact" key="menu_contact">Contact</a>
+                                        <a class="nav-link lang" href="contact.html" key="menu_contact">Contact</a>
                                     </li>
                                 </ul>
                             </div>

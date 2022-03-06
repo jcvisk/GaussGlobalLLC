@@ -1,4 +1,3 @@
-
 $(window).scroll(function(){
     if ($("#nav").offset().top > 56) {
         $("#logo").removeClass("img-rps");
@@ -23,9 +22,6 @@ new WOW().init();
 copyright = new Date();
 update = copyright.getFullYear();
 document.getElementById('year').innerHTML = update;
-
-
-/* JS PARA QUE AGREGUE LA CLASE ACTIVE DINAMICAMENTE */
 
 
 /* JS PARA QUE LOS METATAGAS SEAN DIANMICOS*/

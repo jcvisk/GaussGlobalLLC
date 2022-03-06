@@ -19,7 +19,10 @@ $(document).ready(function () {
         case 'a':
           if ($(this).attr('data-video-id')) {
             $(this).attr('data-video-id', content);
-          } else {
+          } else if ($(this).hasClass('nav-link') || $(this).hasClass('dropdown-item')) {
+            $(this).text(content);
+          }
+          else {
             $(this).attr('href', content);
           }
           break;
@@ -57,6 +60,25 @@ $(document).ready(function () {
           $(this).text(content);
           break;
       }
+
+      //script para camiar video
+      switch (lang) {
+        case 'en':
+            $('#video-en').removeClass('d-none');
+            $('#video-es').addClass('d-none');
+            $('#video-pt').addClass('d-none');
+          break;
+        case 'es':
+            $('#video-en').addClass('d-none');
+            $('#video-es').removeClass('d-none');
+            $('#video-pt').addClass('d-none');
+          break;
+        case 'pt':
+            $('#video-en').addClass('d-none');
+            $('#video-es').addClass('d-none');
+            $('#video-pt').removeClass('d-none');
+          break;
+      }
     });//Each
 
 
@@ -72,7 +94,7 @@ $(document).ready(function () {
         let content = doc[lang][$(this).attr('key')];
         let tagName = $(this).get(0).tagName.toLowerCase();
 
-
+        //Script para traduccir texto y camiar url
         switch (tagName) {
           case 'img':
             $(this).attr('src', content);
@@ -80,7 +102,10 @@ $(document).ready(function () {
           case 'a':
             if ($(this).attr('data-video-id')) {
               $(this).attr('data-video-id', content);
-            } else {
+            } else if ($(this).hasClass('nav-link') || $(this).hasClass('dropdown-item')) {
+              $(this).text(content);
+            }
+            else {
               $(this).attr('href', content);
             }
             break;
@@ -116,6 +141,24 @@ $(document).ready(function () {
             break;
           case 'button':
             $(this).text(content);
+            break;
+        }
+        //script para camiar video
+        switch (lang) {
+          case 'en':
+              $('#video-en').removeClass('d-none');
+              $('#video-es').addClass('d-none');
+              $('#video-pt').addClass('d-none');
+            break;
+          case 'es':
+              $('#video-en').addClass('d-none');
+              $('#video-es').removeClass('d-none');
+              $('#video-pt').addClass('d-none');
+            break;
+          case 'pt':
+              $('#video-en').addClass('d-none');
+              $('#video-es').addClass('d-none');
+              $('#video-pt').removeClass('d-none');
             break;
         }
       }); //Each
