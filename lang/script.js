@@ -23,7 +23,8 @@ $(document).ready(function () {
             $(this).text(content);
           }
           else {
-            $(this).attr('href', content);
+            //$(this).attr('href', content);
+            $(this).text(content);
           }
           break;
         case 'h1':
@@ -60,28 +61,26 @@ $(document).ready(function () {
           $(this).text(content);
           break;
       }
-
-      //script para camiar video
-      switch (lang) {
-        case 'en':
-            $('#video-en').removeClass('d-none');
-            $('#video-es').addClass('d-none');
-            $('#video-pt').addClass('d-none');
-          break;
-        case 'es':
-            $('#video-en').addClass('d-none');
-            $('#video-es').removeClass('d-none');
-            $('#video-pt').addClass('d-none');
-          break;
-        case 'pt':
-            $('#video-en').addClass('d-none');
-            $('#video-es').addClass('d-none');
-            $('#video-pt').removeClass('d-none');
-          break;
-      }
     });//Each
 
-
+    //script para camiar video
+    switch (lang) {
+      case 'en':
+        $('#video-en').removeClass('d-none');
+        $('#video-es').addClass('d-none');
+        $('#video-pt').addClass('d-none');
+        break;
+      case 'es':
+        $('#video-en').addClass('d-none');
+        $('#video-es').removeClass('d-none');
+        $('#video-pt').addClass('d-none');
+        break;
+      case 'pt':
+        $('#video-en').addClass('d-none');
+        $('#video-es').addClass('d-none');
+        $('#video-pt').removeClass('d-none');
+        break;
+    }
 
     $('.translate').click(function () {
 
@@ -106,7 +105,8 @@ $(document).ready(function () {
               $(this).text(content);
             }
             else {
-              $(this).attr('href', content);
+              //$(this).attr('href', content);
+              $(this).text(content);
             }
             break;
           case 'h1':
@@ -143,25 +143,27 @@ $(document).ready(function () {
             $(this).text(content);
             break;
         }
-        //script para camiar video
-        switch (lang) {
-          case 'en':
-              $('#video-en').removeClass('d-none');
-              $('#video-es').addClass('d-none');
-              $('#video-pt').addClass('d-none');
-            break;
-          case 'es':
-              $('#video-en').addClass('d-none');
-              $('#video-es').removeClass('d-none');
-              $('#video-pt').addClass('d-none');
-            break;
-          case 'pt':
-              $('#video-en').addClass('d-none');
-              $('#video-es').addClass('d-none');
-              $('#video-pt').removeClass('d-none');
-            break;
-        }
+
       }); //Each
+
+      //script para camiar video
+      switch (lang) {
+        case 'en':
+          $('#video-en').removeClass('d-none');
+          $('#video-es').addClass('d-none');
+          $('#video-pt').addClass('d-none');
+          break;
+        case 'es':
+          $('#video-en').addClass('d-none');
+          $('#video-es').removeClass('d-none');
+          $('#video-pt').addClass('d-none');
+          break;
+        case 'pt':
+          $('#video-en').addClass('d-none');
+          $('#video-es').addClass('d-none');
+          $('#video-pt').removeClass('d-none');
+          break;
+      }
     }); //Funcion click
 
 
