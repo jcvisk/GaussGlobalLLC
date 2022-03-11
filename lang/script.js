@@ -60,6 +60,9 @@ $(document).ready(function () {
         case 'button':
           $(this).text(content);
           break;
+        case 'li':
+            $(this).text(content);
+          break;
       }
     });//Each
 
@@ -140,6 +143,9 @@ $(document).ready(function () {
             $(this).attr('placeholder', content);
             break;
           case 'button':
+            $(this).text(content);
+            break;
+          case 'li':
             $(this).text(content);
             break;
         }

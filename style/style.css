@@ -69,6 +69,9 @@ h4{
     font-size: calc(15px + (22 - 15) * ((100vw - 300px) / (1600 - 300)));
     letter-spacing: 1.7px;
 }
+.text-black{
+    color: var(--dark);
+}
 .divider{
     border: 3px solid var(--verde);
     background-color: var(--verde);
@@ -104,6 +107,10 @@ h4{
 .autor{
     font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1600 - 300)));
     font-family: "lato-italic";
+}
+.rango{
+    font-size: calc(15px + (20 - 15) * ((100vw - 300px) / (1600 - 300)));
+    font-family: "lato-black";
 }
 
 .title{
@@ -423,12 +430,26 @@ h4{
     margin-left: 0 !important;
 }
 /*--- dionisio ---*/
+.dionisio{
+    position: relative;
+}
+.dionisio .shape-bottom{
+    background-image: url(../img/shapes/shape7.svg);
+}
 .dionisio .divider{
     width: 13%;
     margin-left: 0 !important;
     border: 3px solid var(--dark);
     background-color: var(--dark);
 }
+/*--- martin ---*/
+.martin{
+    position: relative;
+}
+.martin .shape-bottom{
+    background-image: url(../img/shapes/shape18.svg);
+}
+
 /*--- martin - joel ---*/
 .joel .divider,
 .martin .divider,
@@ -476,6 +497,11 @@ h4{
     border: 3px solid var(--verde) !important;
 }
 
+.power-plants .check-video-text{
+    color: var(--verde);
+    font-family: "lato-black";
+}
+
 /*--------------------
     OPPORTUNITY 
 --------------------*/
@@ -491,6 +517,21 @@ h4{
 .travel .divider{
     width: 13%;
     margin-left: 0 !important;
+}
+.travel .lista > li{
+    list-style: none; 
+    padding: 0;
+}
+
+.travel .lista > li::before{
+
+    content: "\2022";  
+    color: var(--verde);
+    display: inline-block; 
+    font-size: 50px;
+    line-height: 25px;
+    vertical-align: -11px;
+    width: .5em;
 }
 /*--- solution ---*/
 .promoter{
