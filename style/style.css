@@ -136,6 +136,7 @@ h4{
     padding-right: 20px;
     padding-left: 20px;
     border: 2px solid var(--dark);
+    border-radius: 2rem;
 }
 .btn-view_more:hover{
     color: var(--dark);
@@ -156,6 +157,7 @@ h4{
     background-color: var(--verde);
     padding: 2rem 7rem;
     margin: 0;
+    border-radius: 5rem;
 }
 .error{
     color: red !important;
@@ -221,7 +223,7 @@ h4{
     padding-right: 60px;
     font-size: 1.5rem;
     border: 3px solid #7eae29;
-    border-radius: .6rem;
+    border-radius: 2rem;
 }
 .contact-container .form button:hover{
     background-color: transparent;
@@ -272,7 +274,7 @@ h4{
     padding-right: 60px;
     font-size: 1.5rem;
     border: 3px solid #4e4e4e;
-    border-radius: .6rem;
+    border-radius: 2rem;
 }
 .contact-white .contact-container .form button:hover{
     background-color: transparent;
