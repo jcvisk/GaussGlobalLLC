@@ -2,7 +2,7 @@
         HEADER 
 --------------------*/
 .navbar-light .navbar-toggler-icon {
-    background-image: url(../img/toggler-icon.svg);
+    background-image: url(../img/icons/toggler-icon.svg);
 }
 .navbar-toggler {
     border: none !important;

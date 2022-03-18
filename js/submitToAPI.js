@@ -42,15 +42,6 @@ function submitToAPI(e) {
         $('#phone-error').addClass('d-none');
     }
 
-    //validando referral
-    if ($("#input-referral").val() == "") {
-        $("#input-referral").focus();
-        $('#referral-error').removeClass('d-none');
-        return;
-    } else {
-        $('#referral-error').addClass('d-none');
-    }
-
     //validando howWeMet
     if ($("#input-howWeMet").val() == "") {
         $("#input-howWeMet").focus();
@@ -72,7 +63,6 @@ function submitToAPI(e) {
     let name = $("#name-input").val();
     let email = $("#email-input").val();
     let phone = $("#input-phone").val();
-    let referral = $("#input-referral").val();
     let howWeMet = $("#input-howWeMet").val();
     let message = $("#message-input").val();
 
@@ -80,7 +70,6 @@ function submitToAPI(e) {
         name: name,
         email: email,
         phone: phone,
-        referral: referral,
         howWeMet: howWeMet,
         message: message        
     };

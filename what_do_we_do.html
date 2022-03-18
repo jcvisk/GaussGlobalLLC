@@ -72,15 +72,15 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="languageDropdown">
                                 <button class="dropdown-item translate" id="en">
-                                    <img src="img/usa.png" alt="usa">
+                                    <img src="img/icons/usa.png" alt="usa">
                                     English
                                 </button>
                                 <button class="dropdown-item translate" id="es">
-                                    <img src="img/mx.png" alt="mx">
+                                    <img src="img/icons/mx.png" alt="mx">
                                     Español
                                 </button>
                                 <button class="dropdown-item translate" id="pt">
-                                    <img src="img/pt.png" alt="pt">
+                                    <img src="img/icons/pt.png" alt="pt">
                                     Português
                                 </button>
                             </div>
@@ -231,49 +231,37 @@
                             <h2 class="form-title lang" key="form_title">Get in Touch</h2>
                             <div class="form-group">
                                 <label for="input-name" class="lang" key="form_label_name">Full Name</label>
-                                <input type="text" class="form-control lang" id="input-name"
-                                    placeholder="Input your full name in here" key="form_input_name">
+                                <input type="text" class="form-control lang" id="input-name">
                                 <span class="error d-none lang" id="name-error" key="form_error_name">Cannot be
                                     blank</span>
                             </div>
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="input-email" class="lang" key="form_label_email">Email</label>
-                                    <input type="email" class="form-control lang" id="input-email"
-                                        placeholder="Input your email name in here" key="form_input_email">
+                                    <input type="email" class="form-control lang" id="input-email">
                                     <span class="error d-none lang" id="email-error" key="form_error_email">
                                         It cannot be blank and the format must be valid
                                     </span>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="input-phone" class="lang" key="form_label_phone">Phone Number</label>
-                                    <input type="tel" class="form-control lang" id="input-phone"
-                                        placeholder="Input your full phone number in here" key="form_input_phone">
+                                    <input type="tel" class="form-control lang" id="input-phone">
                                     <span class="error d-none lang" id="phone-error" key="form_error_phone">Cannot be
                                         blank</span>
                                 </div>
                             </div>
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <label for="input-referral" class="lang" key="form_label_referall">Referral</label>
-                                    <input type="text" class="form-control lang" id="input-referral"
-                                        placeholder="Input your referral name in here" key="form_input_referral">
-                                    <span class="error d-none lang" id="referral-error" key="form_error_referral">Cannot
-                                        be blank</span>
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label for="input-howWeMet" class="lang" key="form_label_howWeMet">Let Us
-                                        Know</label>
-                                    <input type="text" class="form-control lang" id="input-howWeMet"
-                                        placeholder="How did you about us" key="form_input_howWeMet">
-                                    <span class="error d-none lang" id="howWeMet-error" key="form_error_howWeMet">Cannot
-                                        be blank</span>
-                                </div>
+                            <div class="form-group">
+                                <label for="input-howWeMet" class="lang" key="form_label_howWeMet">
+                                    How did you hear about us?
+                                </label>
+                                <input type="text" class="form-control lang" id="input-howWeMet">
+                                <span class="error d-none lang" id="howWeMet-error" key="form_error_howWeMet">
+                                    Cannot be blank
+                                </span>
                             </div>
                             <div class="form-group">
-                                <label for="input-message" class="lang" key="form_label_message">Messages</label>
-                                <textarea class="form-control lang" id="input-message" rows="3"
-                                    placeholder="Write your messages in here" key="form_input_message"></textarea>
+                                <label for="input-message" class="lang" key="form_label_message">Your message</label>
+                                <textarea class="form-control lang" id="input-message" rows="3"></textarea>
                                 <span class="error d-none lang" id="message-error" key="form_error_message">Cannot be
                                     blank</span>
                             </div>
