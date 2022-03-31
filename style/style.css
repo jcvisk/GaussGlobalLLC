@@ -451,6 +451,9 @@ h4{
 .martin .shape-bottom{
     background-image: url(../img/shapes/shape18.svg);
 }
+.martin p{
+    text-shadow: 0 0 10px var(--dark-heavi);
+}
 
 /*--- martin - joel ---*/
 .joel .divider,

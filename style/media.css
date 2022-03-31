@@ -77,7 +77,7 @@
     .martin .img-fluid,
     .bruno .img-fluid,
     .joel .img-fluid{
-        max-width: 75% !important;
+        max-width: 65% !important;
         height: auto !important;
     }
 }
