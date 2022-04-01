@@ -68,6 +68,49 @@
         margin-top: -17% !important;
     }
 }
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+    .slide-new h1 {
+        font-family: "Lato-Bold";
+        font-size: calc(30px + (200 - 30) * ((100vw - 300px) / (1600 - 300))) !important;
+        -webkit-text-stroke: calc(1px + (12 - 1) * ((100vw - 300px) / (1600 - 300))) rgb(255, 255, 255) !important;
+        color: transparent;
+    }
+    
+    .slide-new .text-container {
+        position: absolute;
+        top: 20% !important;
+        right: 0 !important;
+        left: 0 !important;
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .slide-new h1 {
+        font-family: "Lato-Bold";
+        font-size: calc(30px + (230 - 30) * ((100vw - 300px) / (1600 - 300))) !important;
+        -webkit-text-stroke: calc(1px + (14 - 1) * ((100vw - 300px) / (1600 - 300))) rgb(255, 255, 255) !important;
+        color: transparent;
+    }
+
+    .slide-new .text-container{
+        top: 10% !important;
+        right: 0 !important;
+        left: 0 !important;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
     .opportunity .desplazamiento{
         margin-top: -15% !important;
@@ -80,4 +123,6 @@
         max-width: 65% !important;
         height: auto !important;
     }
+    
+
 }
