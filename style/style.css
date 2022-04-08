@@ -778,12 +778,7 @@ h4 {
     border-left: 4px solid gray !important;
 }
 
-.page-link{
-    border: none !important;
-    font-family: "lato-italic";
-    color: gray;
-    font-size: calc(17px + (25 - 17) * ((100vw - 300px) / (1600 - 300)));
-}
+
 
 .cover {
     object-fit: cover;
@@ -803,6 +798,9 @@ h4 {
 .image-container .image {
     position: relative;
     padding-bottom: 100%;
+
+    --clip-start: polygon(50% 50%,  50% 50%,  50% 50%, 50% 50%); 
+    --clip-end: polygon(-50% 50%, 50% -50%, 150% 50%, 50% 150%);
 }
 
 .image-container .image img {
@@ -831,3 +829,24 @@ h4 {
     -webkit-clip-path: var(--clip-end);
     clip-path: var(--clip-end);
 }
+.list-new .carousel-indicators{
+    position: relative;
+    margin-top: 1rem;
+    border: none !important;
+    align-items: center;
+    font-family: "lato-italic";
+    color: gray;
+    font-size: calc(17px + (25 - 17) * ((100vw - 300px) / (1600 - 300)));
+}
+.list-new .carousel-indicators li{
+    
+    text-indent: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+.pagination .page-item a::after {
+    content: " -";
+}*/
