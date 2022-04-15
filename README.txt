@@ -1,7 +1,0 @@
-about
-contact
-gcoin
-index
-opportuy
-power_plants
-what_do_we_do
