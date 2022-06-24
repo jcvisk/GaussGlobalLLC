@@ -537,6 +537,13 @@ h4 {
 }
 
 .martin .shape-bottom {
+    /*background-image: url(../img/shapes/shape18.svg);*/
+    background-image: url(../img/shapes/shape4.svg);
+}
+.sheikh .shape-bottom {
+    background-image: url(../img/shapes/shape4.svg);
+}
+.zarooni .shape-bottom {
     background-image: url(../img/shapes/shape18.svg);
 }
 
@@ -798,7 +805,7 @@ h4 {
 .image-container .image {
     position: relative;
     padding-bottom: 100%;
-
+    border-radius: 50%;
     --clip-start: polygon(50% 50%,  50% 50%,  50% 50%, 50% 50%); 
     --clip-end: polygon(-50% 50%, 50% -50%, 150% 50%, 50% 150%);
 }
@@ -839,14 +846,14 @@ h4 {
     font-size: calc(17px + (25 - 17) * ((100vw - 300px) / (1600 - 300)));
 }
 .list-new .carousel-indicators li{
-    
     text-indent: inherit;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/*
-.pagination .page-item a::after {
-    content: " -";
-}*/
+/*----*/
+.br-50-shadow{
+    border-radius: 50%;
+    filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 0.7));
+}

@@ -91,6 +91,13 @@
         right: 0 !important;
         left: 0 !important;
     }
+
+    .dionisio{
+        min-height: 900px;
+    }
+    .omar{
+        min-height: 750px;
+    }
     
 }
 
@@ -107,6 +114,13 @@
         top: 10% !important;
         right: 0 !important;
         left: 0 !important;
+    }
+
+    .dionisio{
+        min-height: 700px;
+    }
+    .omar{
+        min-height: 500px;
     }
 }
 
