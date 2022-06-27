@@ -65,9 +65,9 @@
 
     "values_img":"img/values.png",
 
-    "sheikh":"H. H. Sheikh Marwan Bin Mohammed Bin Rashid Al Maktoum Chairman",
+    "sheikh":"H. H. Sheikh Marwan Bin Mohammed Bin Rashid Al Maktoum",
+    "chairman":"Chairman",
     "sheikh_text_1":"H. H. Sheikh Marwan Bin Mohammed Bin Rashid Al Maktoum is the first son of His Royal Highness Sheikh Mohammad bin Rashid Al Maktoum, Vice President and Prime Minister of the UAE and Ruler of Dubai.",
-    "sheikh_text_2":"Working alongside a member of the royal family gives our company a different level of credibility and allow us to explore several different fields.",
 
     "dionisio":"Dionísio",
     "dionisio_last_name":"da Silva Simões",
@@ -77,6 +77,7 @@
     "martin_text_1":"From a very young age, Martin has led a very disciplined life. He went through military training for 3 years, which allowed him to face life and its adversities with a different perspective. His has an economy background, and has owned several business, enabling him to understand and work within different industries. While creating a legacy and providing his loved ones with a better future, he was also able to travel the world. In the process, he was exposed to over 50 countries, allowing him to see and approach the world with a very open and different mindset. Martin has undeniable entrepreneurial skills and he is a born-leader.",
 
     "omar":"Omar Ahmed",
+    "board_member":"Board Member",
     "omar_text_1":"Cogent minded, Omar has ensued and funded multiple successful projects conjoining Africa with the Gulf Arab countries with emphasis being on United Arab Emirates, elevating his status to being appointed Senior business advisor and African plenipotentiary for H.H. Sheikh Marwan Bin Mohammad Bin Rashid Al Maktoum’s Private office.",
 
     "zarooni":"Saleh Ismail Ahmed Al Zarooni",
@@ -173,6 +174,7 @@
     "solution_text_1":"At Gauss Global LLC, we like to find solutions and never problems, so we decided to focus our business on recycling materials that are part of our daily lives and take hundreads of years to degrade. And how do we do that? We own a patent for a plant that transforms various forms of plastic into fuel, such as diesel and gasoline, that are so essential for our daily life.",
     "power_plants":"Power Plants",
     "power_plants_text_1":"Our recycling plant makes it possible to transform industrial and agricultural plastic, tires and used oils into ready-to-use fuels, without the need for refining. In a safe and clean way, we use all escesses to power our system, eliminating harmful gases and transforming them into energy, thus also reducing production costs.",
+    "power_plants_text_2":"Currently our power plants are located in Sonora, Mexico, and we currently already have secured concessions for the construction of new power plants in Peru, Italy, and Brazil.",
     "check_video_text":"Check Out Our Video",
     "check_video":"0qB1eG-cYzY",
 
@@ -264,9 +266,9 @@
 
     "values_img":"img/los-valores.png",
 
-    "sheikh":"H. H. Sheikh Marwan Bin Mohammed Bin Rashid Al Maktoum Chairman",
+    "sheikh":"H. H. Sheikh Marwan Bin Mohammed Bin Rashid Al Maktoum",
+    "chairman":"Presidente",
     "sheikh_text_1":"H. H. Sheikh Marwan Bin Mohammed Bin Rashid Al Maktoum es el primer hijo de Su Alteza Real el Jeque Mohammad bin Rashid Al Maktoum, Vicepresidente y Primer Ministro de los EAU y Gobernante de Dubai.",
-    "sheikh_text_2":"Trabajar con un miembro de la familia real da a nuestra empresa un nivel diferente de credibilidad y nos permite explorar varios campos diferentes.",
 
     "dionisio":"Dionísio",
     "dionisio_last_name":"da Silva Simões",
@@ -276,10 +278,11 @@
     "martin_text_1":"Desde muy joven, Martin ha llevado una vida muy disciplinada. Realizó un entrenamiento militar durante 3 años, lo que le permitió afrontar la vida y sus adversidades con una perspectiva diferente. Tiene formación en economía y ha sido propietario de varios negocios, lo que le ha permitido entender y trabajar en diferentes industrias. Mientras creaba un legado y proporcionaba a sus seres queridos un futuro mejor, también pudo viajar por el mundo. En el proceso, estuvo expuesto a más de 50 países, lo que le permitió ver y acercarse al mundo con una mentalidad muy abierta y diferente. Martin tiene una innegable capacidad empresarial y es un líder nato.",
 
     "omar":"Omar Ahmed",
-    "omar_text_1":"Con una mentalidad convincente, Omar ha llevado a cabo y financiado múltiples proyectos de éxito que unen África con los países árabes del Golfo, con especial atención a los Emiratos Árabes Unidos, lo que le ha llevado a ser nombrado asesor principal de negocios y plenipotenciario africano de la oficina privada de S.A. el Jeque Marwan Bin Mohammad Bin Rashid Al Maktoum.",
+    "board_member":"Miembro del Consejo de Administración",
+    "omar_text_1":"Con una mentalidad convincente, Omar ha llevado a cabo y financiado múltiples proyectos de éxito que unen a África con los países árabes del Golfo, sobre todo con los Emiratos Árabes Unidos, lo que le ha llevado a ser nombrado asesor principal de negocios y plenipotenciario africano de la oficina privada de Su Alteza el Jeque Marwan Bin Mohammad Bin Rashid Al Maktoum.",
 
     "zarooni":"Saleh Ismail Ahmed Al Zarooni",
-    "zarooni_text_1":"Saleh ha colaborado estrechamente con la oficina privada de su alteza durante más de dos décadas y media. Ha orquestado múltiples empresas, planificado servicios financieros y su gestión en múltiples negocios y filantropía. Sus amplias dotes diplomáticas, con una atención extrema a los detalles, han ayudado a empresas de todo tipo a maximizar las inversiones, recortar los gastos y aumentar la eficiencia. Sólido conocimiento de los estatutos de la empresa y de cómo aplicar los procedimientos de la misma. Exitoso motivador que aporta una buena actitud a cada reunión.",
+    "zarooni_text_1":"Saleh ha colaborado estrechamente con la oficina privada de Su Alteza durante más de dos décadas y media. Ha orquestado múltiples empresas, planificado servicios financieros y su gestión en múltiples negocios y filantropía. Sus amplias dotes diplomáticas, con una atención extrema a los detalles, han ayudado a empresas de todo tipo a maximizar las inversiones, recortar los gastos y aumentar la eficiencia. Sólido conocimiento de los estatutos de la empresa y de cómo aplicar los procedimientos de la misma. Exitoso motivador que aporta una buena actitud a cada reunión.",
 
     "team":"EL EQUIPO",
     "team_img":"img/texts/equipo.png",
@@ -372,6 +375,7 @@
     "solution_text_1":"En Gauss Global LLC nos gusta encontrar soluciones y nunca problemas, por eso decidimos enfocar nuestro negocio en el reciclaje de materiales que son parte de nuestra vida diaria y tardan cientos de años en degradarse.¿Y cómo hacemos eso? de una planta que transforma diversas formas de plástico en combustible, como diesel y gasolina, fundamentales para nuestra vida diaria.",
     "power_plants":"Planta",
     "power_plants_text_1":"Nuestra planta de reciclaje permite transformar plásticos industriales y agrícolas, llantas y aceites usados ​​en combustibles listos para usar, sin necesidad de refinar y transformándolos en energía, reduciendo también los costos de producción.",
+    "power_plants_text_2":"En la actualidad, nuestras centrales eléctricas se encuentran en Sonora, México, y ya hemos conseguido concesiones para la construcción de nuevas centrales eléctricas en Perú, Italia y Brasil.",
     "check_video_text":"Vea nuestro vídeo",
     "check_video":"0HIZOLEO014",
 
@@ -463,9 +467,9 @@
 
     "values_img":"img/os-valores.png",
 
-    "sheikh":"H. H. Sheikh Marwan Bin Mohammed Bin Rashid Al Maktoum Chairman",
-    "sheikh_text_1":"H. H. Sheikh Marwan Bin Mohammed Bin Rashid Al Maktoum é o primeiro filho de Sua Alteza Real Xeque Mohammad bin Rashid Al Maktoum, Vice Presidente e Primeiro Ministro dos EAU e Governador do Dubai.",
-    "sheikh_text_2":"Trabalhar ao lado de um membro da família real dá à nossa empresa um nível diferente de credibilidade e permite-nos explorar vários campos diferentes.",
+    "sheikh":"H. H. Sheikh Marwan Bin Mohammed Bin Rashid Al Maktoum",
+    "chairman":"Presidente",
+    "sheikh_text_1":"H. H. Sheikh Marwan Bin Mohammed Bin Rashid Al Maktoum é o primeiro filho de Sua Alteza Real Sheikh Mohammad bin Rashid Al Maktoum, Vice Presidente e Primeiro Ministro dos Emiratos Árabes Unidos e Governador de Dubai.",
 
     "dionisio":"Dionísio",
     "dionisio_last_name":"da Silva Simões",
@@ -475,10 +479,11 @@
     "martin_text_1":"Desde muito jovem, Martin tem levado uma vida muito disciplinada. Passou por uma formação militar durante 3 anos, o que lhe permitiu enfrentar a vida e as suas adversidades com uma perspectiva diferente. Tem um passado económico, e foi proprietário de vários negócios, o que lhe permitiu compreender e trabalhar em diferentes indústrias. Enquanto criava um legado e proporcionava aos seus entes queridos um futuro melhor, também foi capaz de viajar pelo mundo. No processo, foi exposto a mais de 50 países, permitindo-lhe ver e abordar o mundo com uma mentalidade muito aberta e diferente. Martin possui inegáveis capacidades empreendedoras e é um líder nato.",
 
     "omar":"Omar Ahmed",
-    "omar_text_1":"Cogent minded, Omar tem seguido e financiado múltiplos projectos bem sucedidos que se juntam a África com os países árabes do Golfo, com ênfase nos Emirados Árabes Unidos, elevando o seu estatuto para ser nomeado conselheiro comercial sénior e plenipotenciário africano para o gabinete privado de H.H. Sheikh Marwan Bin Mohammad Bin Rashid Al Maktoum.",
+    "board_member":"Membro do Conselho de Administração",
+    "omar_text_1":"Con una mentalidad convincente, Omar ha llevado a cabo y financiado múltiples proyectos de éxito que unen a África con los países árabes del Golfo, sobre todo con los Emiratos Árabes Unidos, lo que le ha llevado a ser nombrado asesor principal de negocios y plenipotenciario africano de la oficina privada de Su Alteza el Jeque Marwan Bin Mohammad Bin Rashid Al Maktoum.",
 
     "zarooni":"Saleh Ismail Ahmed Al Zarooni",
-    "zarooni_text_1":"Saleh tem trabalhado de perto com as suas altas individualidades durante mais de duas décadas e meia. Orquestrou múltiplos empreendimentos empresariais, planeou serviços financeiros e a sua gestão em múltiplos negócios e filantropia. As suas extensas capacidades diplomáticas com extrema atenção aos detalhes ajudaram empresas de todos os tipos a maximizar os investimentos, cortar gastos, e aumentar a eficiência. Forte conhecimento dos estatutos e de como implementar os procedimentos da empresa. Motivador bem sucedido que traz uma boa atitude a cada reunião.",
+    "zarooni_text_1":"Saleh trabalha em estreita colaboração com o escritório particular de Sua Alteza há mais de duas décadas e meia. Ele orquestrou múltiplos empreendimentos, planejou serviços financeiros e gerenciou múltiplos negócios e filantropos. Suas extensas habilidades diplomáticas, com extrema atenção aos detalhes, ajudaram empresas de todos os tipos a maximizar os investimentos, cortar custos e aumentar a eficiência. Forte conhecimento do estatuto da empresa e de como aplicar os procedimentos da empresa. Saleh é motivador por natureza e traz sempre uma boa atitude em cada reunião que está presente. ",
 
     "team":"A EQUIPE",
     "team_img":"img/texts/equipe.png",
@@ -571,6 +576,7 @@
     "solution_text_1":"Na Gauss Global LLC, gostamos de  encontrar soluções e nunca problemas, dessa forma decidimos focar o nosso negócio na reciclagem de materiais que fazem parte do nosso dia a dia e demoram centenas de anos para se degradarem. E como fazemos isso? Adquirimos uma patente de uma planta que transforma varias formas de plástico em combustível, como diesel e gasolina, fundamentais para a nossa vida diária.",
     "power_plants":"Usina",
     "power_plants_text_1":"A nossa planta de reciclagem permite transformar o plástico industrial, agrícola, pneus e óleos usados, em combustíveis prontos a usar, sem necessidade de refinação. De uma forma segura e limpa, usamos todos os excedentes  para alimentar energeticamente o nosso sistema, eliminando gases prejudiciais e transformando-os  em energia reduzindo dessa forma também os custos de produção.",
+    "power_plants_text_2":"Atualmente as nossas usinas estão localizadas em Sonora, México, e já assegurámos concessões para a construção de outras no Peru, Itália e Brasil.",
     "check_video_text":"Ver o nosso vídeo",
     "check_video":"-MmJirR4I1g",
 

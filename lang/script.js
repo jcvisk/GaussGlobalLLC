@@ -63,6 +63,9 @@ $(document).ready(function () {
         case 'li':
             $(this).text(content);
           break;
+        case 'strong':
+            $(this).text(content);
+          break;
       }
     });//Each
 
@@ -148,6 +151,9 @@ $(document).ready(function () {
           case 'li':
             $(this).text(content);
             break;
+          case 'strong':
+            $(this).text(content);
+          break;
         }
 
       }); //Each
