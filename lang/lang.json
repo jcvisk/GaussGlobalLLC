@@ -48,6 +48,7 @@
     "email_status_success":"Your message has been sent successfully. In the next 48 hours, one of our executives will contact you.",
     "email_status_unsuccessful":"Unsuccessful",
     "btn_accept_modal":"Accept",
+    "label_see_more":"See full article at:",
 
     "copy_text":"All rights reserved.",
     "btn_view_more":"VIEW MORE",
@@ -123,8 +124,6 @@
     "people_saying":"WHAT PEOPLE ARE SAYING",
     "people_saying_slide_text_1":"Since I started at Gauss, every day I feel challenged to bring out the best version of myself, and what are you willing to do to achieve the best version of yourself? I would like to  welcome you to a better world, to the world of Gauss.",
     "people_saying_slide_autor_1":"Henry Sanchez.",
-    "people_saying_slide_text_2":"I can say that Gauss Global LLC  is an ecological company and has given me more than what I expected. It has changed the life of my family and mine. I am fulfilling myself as a person, having personal and business growth and, above all, I am helping many people making their dreams come true. Because I work for this company my son has the privilege of receiving an education. Before I joined Gauss, I used to work  in the mining industry, where schedules would be super overwhelming and there was never enough time for me and my family. Working with Gauss Global means I have more time and money to spoil my loved ones. I am so grateful and proud to be part of this amazing company.",
-    "people_saying_slide_autor_2":"David Carrillo.",
     "people_saying_slide_text_3":"I used to be an ex-manager of an insurance company and a civil servant. Today I am an entrepreneur, owner of my own business, and investor. I want to help on the battle of saving the planet and the environment, while allowing people to understand what they can do to improve their lives financially, and how they  can take control of their time.",
     "people_saying_slide_autor_3":"Victor Terrones Galvez.",
     "people_saying_slide_text_4":"Leadership is something that I am passionate about because I can help many people to change their lifestyles. Contributing to our planet by avoiding environmental pollution and, above all, generating income by doing so, is something wonderful and very motivating. I am in love with this project, grateful and very proud to be part of Gauss Global Investment LLC.",
@@ -151,12 +150,8 @@
     "people_saying_slide_text_12_1":"My experience with Gauss has been wonderful, I can even say that it has been the best thing that has happened to me.",
     "people_saying_slide_text_12_2":"Since October fourteenth, 2021 I traveled from Medellin-Colombia to Dubai, and I had the opportunity to meet  both the office and and the partners that support our company. The only question left is: can you imagine helping the environment while generating income? I certainly can!",
     "people_saying_slide_autor_12":"Melissa Perez.",
-    "people_saying_slide_text_13_1":"I am a university professor from Trujillo, Peru. In addition to currently working in a public institution, I started several years ago to look for the ideal company, and I finally found it at Gauss Global LLC. I can now see the short and long term proposed goals, and I couldn't be happier to be part of an environmentally friendly company such as Gauss Global LLC.",
-    "people_saying_slide_autor_13":"Rosa Castañeda.",
     "people_saying_slide_text_14":"The business world is something that motivates me more and more every day, because it allows me to help people improve their quality of life. Environmental issues are very important and I am very proud to belong to a company like Gauss Global Investment LLC that cares about that. My main interest is to promote this innovative project so that it is within everyone's reach. As a woman and an entrepreneur I am very committed to take this business model that has contributed to my personal and family growth in many levels.",
     "people_saying_slide_autor_14":"Doris Gutiérrez.",
-    "people_saying_slide_text_16":"As a woman, I have always wanted to have my own business, as this can allow me to motivate other people to do the same. Nowadays, environmental issues are extremely important and I am so proud to belong to this excellent company. My main goal is to promote this innovative project, so that it is available to everyone, no matter their situation. As a businesswoman, I am very committed to share Gauss Global's ideals with everyone I know!",
-    "people_saying_slide_autor_16":"Angela Garcia.",
 
     "problem":"The Problem",
     "problem_text_1":"We have all seen images like the ones above, and we were always told that we have to change our path and find different ways of acting towards the environment. At Gauss Global LLC we are already doing something that could change how we recycle and  look at plastic.",
@@ -180,6 +175,7 @@
 
     "march":"March",
     "june":"June",
+    "august":"August",
     "more_news":"More News",
     "new_1_title_1":"Inauguration",
     "new_1_title_2":"of our office",
@@ -188,7 +184,23 @@
     "new_1_desc_3":"Our inauguration took place on the 21st of October of 2021. This was a day full of emotions, and it marks the official beginning of Gauss Global LLC in the UAE.",
   
     "new_2_title_1":"Gauss Global in",
-    "new_2_title_2":"Folha Verde News"
+    "new_2_title_2":"Folha Verde News – Brazil",
+    "new_2_desc_1":"‘The future is green’ é o slogan da Gauss Global Investment, empresa de tecnologia e sustentabilidade com sede mundial em Dubai, nos Emirados Árabes Unidos; sendo os seus fundadores Martin Rojas e Dionísio Simões, líderes deste grupo empresarial que tem por objetivo gerar uma mudança ecologicamente correta, transformando resíduos plásticos em combustível, além do reflorestamento, plantando árvores por todo o mundo. A proposta é salvar o planeta da overdose de plásticos e da crise de combustíveis com uma reciclagem dentro das metas do desenvolvimento sustentável.",
+
+    "new_3_title_1":"Gauss Global in",
+    "new_3_title_2":"El Correo del Golfo – Dubai",
+    "new_3_desc_1":"La compañía emiratí cuenta con la tecnología suficiente para lograr un combustible de calidad y menos contaminante, a un mejor precio.",
+    "new_3_desc_2":"La Municipalidad Provincial de Trujillo (MPT) en Perú, a través del Servicio de Gestión Ambiental recibió una propuesta para instalar en la ciudad una moderna planta ecológica para tratar residuos aprovechables, como parte de la iniciativa de una empresa emiratí, que ha visto gran potencial en la localidad.",
+
+    "new_4_title_1":"Gauss Global in",
+    "new_4_title_2":"La República – Peru",
+    "new_4_desc_1":"Directivos de la empresa Gauss Global expusieron en la Municipalidad Provincial de Trujillo (MPT) el proyecto de una planta de reciclaje, la cual se ubicaría en el botadero de El Milagro (Huanchaco) y podría procesar 20 toneladas de plástico a partir de lo cual se obtendría combustible para vehículos ediles.",
+    "new_4_desc_2":"El director ejecutivo de la citada firma, Martín Rojas Ibáñez, señaló a los periodistas que la inversión la harán ellos. “La MPT tiene el terreno, la tecnología la vamos a traer nosotros. La ciudad sigue recogiendo plástico y solo es un tema de educación para que la gente saque un determinado día el plástico. La comuna lo recoge y lo lleva al mismo botadero”, aseveró.",
+
+    "new_5_title_1":"Gauss Global in",
+    "new_5_title_2":"Estadão - Brazil",
+    "new_5_desc_1":"Empresa sediada em Dubai oferece parceria para a construção de usinas que transformam resíduos plásticos em combustíveis",
+    "new_5_desc_2":"A Gauss Global Investment LLC está em busca de parcerias com prefeituras brasileiras para a expansão de um negócio inovador e sustentável: a transformação de resíduos plásticos em combustível. Trata-se de uma proposta em que a prefeitura investe na construção de uma usina, capaz de processar 20 toneladas de plástico por dia. Esse volume é convertido em 14 mil litros de combustível, sendo 10 mil de diesel e 4 mil de gasolina."
   },
   "es":{
     "menu_lang":"Español",
@@ -239,6 +251,7 @@
     "email_status_success":"Su mensaje ha sido enviado con éxito. En las próximas 48 horas, uno de nuestros ejecutivos se pondrá en contacto con usted.",
     "email_status_unsuccessful":"Sin éxito",
     "btn_accept_modal":"Aceptar",
+    "label_see_more":"Vea el artículo completo en:",
 
     "copy_text":"Todos los derechos reservados.",
     "btn_view_more":"VER MÁS",
@@ -314,8 +327,6 @@
     "people_saying":"LO QUE DICE LA GENTE",
     "people_saying_slide_text_1":"Desde que empecé en Gauss, cada día es un reto para sacar la mejor versión de mi, y tú, qué estás dispuesto hacer para lograr la mejor versión de ti mismo? Te doy la bienvenida a un mundo mejor, al mundo de Gauss.",
     "people_saying_slide_autor_1":"Henry Sanchez.",
-    "people_saying_slide_text_2":"Puedo decir que Gauss Global LLC es una empresa ecológica y me ha dado más de lo que esperaba. Ha cambiado la vida de mi familia y la mía. Me estoy realizando como persona, teniendo un crecimiento personal y empresarial y, sobre todo, estoy ayudando a muchas personas a hacer realidad sus sueños. Gracias a que trabajo en esta empresa, mi hijo tiene el privilegio de recibir una educación. Antes de unirme a Gauss, trabajaba en la industria minera, donde los horarios eran súper abrumadores y nunca había suficiente tiempo para mí y mi familia. Trabajar con Gauss Global significa que tengo más tiempo y dinero para mimar a mis seres queridos. Estoy muy agradecida y orgullosa de formar parte de esta increíble empresa.",
-    "people_saying_slide_autor_2":"David Carrillo.",
     "people_saying_slide_text_3":"Antes era un ex directivo de una compañía de seguros y un funcionario. Hoy soy empresario, propietario de mi propio negocio e inversor. Quiero ayudar en la batalla por salvar el planeta y el medio ambiente, y al mismo tiempo permitir que la gente entienda lo que puede hacer para mejorar su vida financieramente, y cómo puede tomar el control de su tiempo.",
     "people_saying_slide_autor_3":"Victor Terrones Galvez.",
     "people_saying_slide_text_4":"El liderazgo es algo que me apasiona porque puedo ayudar a muchas personas a cambiar su estilo de vida. Contribuir a nuestro planeta evitando la contaminación ambiental y, sobre todo, generar ingresos al hacerlo, es algo maravilloso y muy motivador. Estoy enamorado de este proyecto, agradecido y muy orgulloso de formar parte de Gauss Global Investment LLC.",
@@ -342,12 +353,8 @@
     "people_saying_slide_text_12_1":"Mi experiencia con Gauss ha sido maravillosa, incluso puedo decir que ha sido lo mejor que me ha pasado. Hace mucho tiempo empecé a buscar un proyecto en el que pudiera dejar un legado, con un enfoque sostenible y respetuoso con el medio ambiente.",
     "people_saying_slide_text_12_2":"Desde el catorce de octubre de 2021 viajé de Medellín-Colombia a Dubai, y tuve la oportunidad de conocer tanto la oficina como los socios que apoyan nuestra empresa. La única pregunta que queda es: ¿te imaginas ayudar al medio ambiente mientras generas ingresos? ¡Yo sí que puedo!",
     "people_saying_slide_autor_12":"Melissa Perez.",
-    "people_saying_slide_text_13_1":"Soy una profesora universitario de Trujillo, Perú. Además de trabajar actualmente en una institución pública, comencé hace varios años a buscar la empresa ideal, y finalmente la encontré en Gauss Global LLC. Ahora puedo ver los objetivos propuestos a corto y largo plazo, y no podría estar más contento de formar parte de una empresa respetuosa con el medio ambiente como Gauss Global LLC.",
-    "people_saying_slide_autor_13":"Rosa Castañeda.",
     "people_saying_slide_text_14":"El mundo de los negocios es algo que me motiva cada día más, porque me permite ayudar a las personas a mejorar su calidad de vida. El tema ambiental es muy importante y estoy muy orgullosa de pertenecer a una empresa como Gauss Global Investment LLC que se preocupa por aquello. Mi mayor interés es promulgar este proyecto innovador para que esté al alcance de todos. Cómo mujer y empresaria estoy muy comprometida a llevar a otros niveles este modelo de negocio que ha contribuido a mi crecimiento personal y familiar.",
     "people_saying_slide_autor_14":"Doris Gutiérrez.",
-    "people_saying_slide_text_16":"Como mujer, siempre he querido tener mi propio negocio, ya que esto puede permitirme motivar a otras personas a hacer lo mismo. Hoy en día, los temas medioambientales son extremadamente importantes y estoy muy orgullosa de pertenecer a esta excelente empresa. Mi principal objetivo es promover este proyecto innovador, para que esté al alcance de todos, sea cual sea su situación. Como empresaria, estoy muy comprometida a compartir los ideales de Gauss Global con todos mis conocidos!",
-    "people_saying_slide_autor_16":"Angela Garcia.",
 
     "problem":"El problema",
     "problem_text_1":"Imágenes como las que aquí presentamos seguro que todas las hemos visto varias veces y siempre nos decían que teníamos que cambiar de rumbo y hacer algo diferente. En Gauss Global LLC ya estamos haciendo algo que podría cambiar la forma en que vemos y reciclamos el plástico.",
@@ -371,6 +378,7 @@
 
     "march":"Marzo",
     "june":"Junio",
+    "august":"Agosto",
     "more_news":"Más Noticias",
     "new_1_title_1":"Inauguración de",
     "new_1_title_2":"nuestra oficina",
@@ -379,7 +387,23 @@
     "new_1_desc_3":"Nuestra inauguración tuvo lugar el 21 de octubre de 2021. Fue un día lleno de emociones y que marca el inicio oficial de Gauss Global LLC en los Emiratos Árabes Unidos.",
 
     "new_2_title_1":"Gauss Global en",
-    "new_2_title_2":"Folha Verde News"
+    "new_2_title_2":"Folha Verde News – Brazil",
+    "new_2_desc_1":"‘The future is green’ é o slogan da Gauss Global Investment, empresa de tecnologia e sustentabilidade com sede mundial em Dubai, nos Emirados Árabes Unidos; sendo os seus fundadores Martin Rojas e Dionísio Simões, líderes deste grupo empresarial que tem por objetivo gerar uma mudança ecologicamente correta, transformando resíduos plásticos em combustível, além do reflorestamento, plantando árvores por todo o mundo. A proposta é salvar o planeta da overdose de plásticos e da crise de combustíveis com uma reciclagem dentro das metas do desenvolvimento sustentável.",
+
+    "new_3_title_1":"Gauss Global en",
+    "new_3_title_2":"El Correo del Golfo – Dubai",
+    "new_3_desc_1":"La compañía emiratí cuenta con la tecnología suficiente para lograr un combustible de calidad y menos contaminante, a un mejor precio.",
+    "new_3_desc_2":"La Municipalidad Provincial de Trujillo (MPT) en Perú, a través del Servicio de Gestión Ambiental recibió una propuesta para instalar en la ciudad una moderna planta ecológica para tratar residuos aprovechables, como parte de la iniciativa de una empresa emiratí, que ha visto gran potencial en la localidad.",
+
+    "new_4_title_1":"Gauss Global en",
+    "new_4_title_2":"La República – Peru",
+    "new_4_desc_1":"Directivos de la empresa Gauss Global expusieron en la Municipalidad Provincial de Trujillo (MPT) el proyecto de una planta de reciclaje, la cual se ubicaría en el botadero de El Milagro (Huanchaco) y podría procesar 20 toneladas de plástico a partir de lo cual se obtendría combustible para vehículos ediles.",
+    "new_4_desc_2":"El director ejecutivo de la citada firma, Martín Rojas Ibáñez, señaló a los periodistas que la inversión la harán ellos. “La MPT tiene el terreno, la tecnología la vamos a traer nosotros. La ciudad sigue recogiendo plástico y solo es un tema de educación para que la gente saque un determinado día el plástico. La comuna lo recoge y lo lleva al mismo botadero”, aseveró.",
+
+    "new_5_title_1":"Gauss Global en",
+    "new_5_title_2":"Estadão - Brazil",
+    "new_5_desc_1":"Empresa sediada em Dubai oferece parceria para a construção de usinas que transformam resíduos plásticos em combustíveis",
+    "new_5_desc_2":"A Gauss Global Investment LLC está em busca de parcerias com prefeituras brasileiras para a expansão de um negócio inovador e sustentável: a transformação de resíduos plásticos em combustível. Trata-se de uma proposta em que a prefeitura investe na construção de uma usina, capaz de processar 20 toneladas de plástico por dia. Esse volume é convertido em 14 mil litros de combustível, sendo 10 mil de diesel e 4 mil de gasolina."
   },
   "pt":{
     "menu_lang":"Português",
@@ -430,6 +454,7 @@
     "email_status_success":"A sua mensagem foi enviada com sucesso. Nas próximas 48 horas, um dos nossos executivos irá contactá-lo.",
     "email_status_unsuccessful":"Sem sucesso",
     "btn_accept_modal":"Aceitar",
+    "label_see_more":"Ver artigo completo em:",
 
     "copy_text":"Todos os direitos reservados.",
     "btn_view_more":"VER MAIS",
@@ -505,8 +530,6 @@
     "people_saying":"O QUE AS PESSOAS DIZEM",
     "people_saying_slide_text_1":"Desde que comecei na Gauss, cada dia é um desafio para trazer a melhor versão de mim mesmo, e o que você está disposto a fazer para alcançar a melhor versão de si mesmo? Dou-lhe as boas-vindas a um mundo melhor, ao mundo de Gauss.",
     "people_saying_slide_autor_1":"Henry Sanchez.",
-    "people_saying_slide_text_2":"Posso dizer que a Gauss Global LLC é uma empresa ecológica e me deu mais do que eu esperava. Ela mudou a vida da minha família e a minha. Estou me realizando como pessoa, tendo crescimento pessoal e empresarial e, acima de tudo, estou ajudando muitas pessoas a tornar seus sonhos realidade. Porque trabalho para esta empresa, meu filho tem o privilégio de receber uma educação. Antes de ingressar na Gauss, eu trabalhava na indústria de mineração, onde os horários eram  super sobrecarregados e nunca havia tempo suficiente para mim e para minha família. Trabalhar com a Gauss Global significa que eu tenho mais tempo e dinheiro para mimar meus entes queridos. Estou muito grato e orgulhoso de fazer parte desta incrível empresa.",
-    "people_saying_slide_autor_2":"David Carrillo.",
     "people_saying_slide_text_3":"Eu costumava ser e ex-gerente de uma companhia de seguros e de um funcionário público. Hoje sou um empresário e investidor. Quero ajudar na batalha de salvar o planeta e o meio ambiente, ao mesmo tempo em que permito que as pessoas entendam o que podem fazer para melhorar suas vidas financeiramente, e como podem começar a ganhar controle de seu tempo.",
     "people_saying_slide_autor_3":"Victor Terrones Galvez.",
     "people_saying_slide_text_4":"A liderança é algo que me apaixona porque posso ajudar muitas pessoas a mudar seus estilos de vida. Contribuir para nosso planeta evitando a poluição ambiental e, acima de tudo, gerando uma renda residual ao fazê-lo, é algo maravilhoso e muito motivador. Estou apaixonado por este projeto, grato e muito orgulhoso por fazer parte da Gauss Global Investment LLC.",
@@ -533,12 +556,8 @@
     "people_saying_slide_text_12_1":"Minha experiência com Gauss tem sido maravilhosa, posso até dizer que tem sido a melhor coisa que me aconteceu. Há muito tempo, comecei a procurar um projeto onde pudesse deixar um legado, com uma abordagem sustentável e ambientalmente correta.",
     "people_saying_slide_text_12_2":"Desde 14 de outubro de 2021, viajei de Medellín-Colômbia para Dubai, e tive a oportunidade de conhecer tanto o escritório quanto os parceiros que apoiam nossa empresa. A única pergunta que me resta é: você consegue imaginar ajudar o meio ambiente enquanto gera renda? Certamente que sim!",
     "people_saying_slide_autor_12":"Melissa Perez.",
-    "people_saying_slide_text_13_1":"Sou uma professora universitária de Trujillo, Peru. Além de trabalhar atualmente em uma instituição pública, comecei há vários anos a procurar a empresa ideal, e finalmente a encontrei na Gauss Global LLC. Agora posso ver os objetivos propostos a curto e longo prazo, e não poderia estar mais feliz em fazer parte de uma empresa amiga do meio ambiente, como a Gauss Global LLC.",
-    "people_saying_slide_autor_13":"Rosa Castañeda.",
     "people_saying_slide_text_14":"O mundo dos negócios é algo que me motiva cada vez mais, porque me permite ajudar as pessoas a melhorar sua qualidade de vida. A questão ambiental é muito importante e estou muito orgulhoso de pertencer a uma empresa como a Gauss Global Investment LLC que se preocupa com isso. Meu principal interesse é promover este projeto inovador para que ele esteja disponível a todos. Como mulher e empresária, estou muito comprometida em levar este modelo empresarial que contribuiu para o meu crescimento pessoal e familiar.",
     "people_saying_slide_autor_14":"Doris Gutiérrez.",
-    "people_saying_slide_text_16":"Como mulher, sempre quis ter meu próprio negócio, pois isso pode me permitir motivar outras pessoas a fazer o mesmo. Hoje em dia, as questões ambientais são extremamente importantes e estou muito orgulhosa de pertencer a esta excelente empresa. Meu principal objetivo é promover este projeto inovador, para que ele esteja disponível a todos, não importando a sua situação. Como empresária, estou muito comprometida em compartilhar os ideais da Gauss Global com todos que conheço!",
-    "people_saying_slide_autor_16":"Angela Garcia.",
 
     "problem":"O Problema",
     "problem_text_1":"Já todos vimos imagens como as que apresentamos aqui e sempre nos foi dito que temos de mudar o caminho e fazer algo diferente. Na Gauss Global  LLC, já estamos a fazer algo que pode mudar a maneira como vemos e reciclamos plástico.",
@@ -562,6 +581,7 @@
 
     "march":"Março",
     "june":"Junho",
+    "august":"Agosto",
     "more_news":"Mais notícias",
     "new_1_title_1":"Inauguração do",
     "new_1_title_2":"nosso escritório",
@@ -570,7 +590,23 @@
     "new_1_desc_3":"A nossa inauguração ocorreu no dia 21 de outubro de 2021. Este foi um dia cheio de emoções e marca o início oficial da Gauss Global LLC nos Emirados Árabes Unidos.",
 
     "new_2_title_1":"Gauss Global na",
-    "new_2_title_2":"Folha Verde News"
+    "new_2_title_2":"Folha Verde News – Brazil",
+    "new_2_desc_1":"‘The future is green’ é o slogan da Gauss Global Investment, empresa de tecnologia e sustentabilidade com sede mundial em Dubai, nos Emirados Árabes Unidos; sendo os seus fundadores Martin Rojas e Dionísio Simões, líderes deste grupo empresarial que tem por objetivo gerar uma mudança ecologicamente correta, transformando resíduos plásticos em combustível, além do reflorestamento, plantando árvores por todo o mundo. A proposta é salvar o planeta da overdose de plásticos e da crise de combustíveis com uma reciclagem dentro das metas do desenvolvimento sustentável.",
+
+    "new_3_title_1":"Gauss Global na",
+    "new_3_title_2":"El Correo del Golfo – Dubai",
+    "new_3_desc_1":"La compañía emiratí cuenta con la tecnología suficiente para lograr un combustible de calidad y menos contaminante, a un mejor precio.",
+    "new_3_desc_2":"La Municipalidad Provincial de Trujillo (MPT) en Perú, a través del Servicio de Gestión Ambiental recibió una propuesta para instalar en la ciudad una moderna planta ecológica para tratar residuos aprovechables, como parte de la iniciativa de una empresa emiratí, que ha visto gran potencial en la localidad.",
+
+    "new_4_title_1":"Gauss Global na",
+    "new_4_title_2":"La República – Peru",
+    "new_4_desc_1":"Directivos de la empresa Gauss Global expusieron en la Municipalidad Provincial de Trujillo (MPT) el proyecto de una planta de reciclaje, la cual se ubicaría en el botadero de El Milagro (Huanchaco) y podría procesar 20 toneladas de plástico a partir de lo cual se obtendría combustible para vehículos ediles.",
+    "new_4_desc_2":"El director ejecutivo de la citada firma, Martín Rojas Ibáñez, señaló a los periodistas que la inversión la harán ellos. “La MPT tiene el terreno, la tecnología la vamos a traer nosotros. La ciudad sigue recogiendo plástico y solo es un tema de educación para que la gente saque un determinado día el plástico. La comuna lo recoge y lo lleva al mismo botadero”, aseveró.",
+
+    "new_5_title_1":"Gauss Global na",
+    "new_5_title_2":"Estadão - Brazil",
+    "new_5_desc_1":"Empresa sediada em Dubai oferece parceria para a construção de usinas que transformam resíduos plásticos em combustíveis",
+    "new_5_desc_2":"A Gauss Global Investment LLC está em busca de parcerias com prefeituras brasileiras para a expansão de um negócio inovador e sustentável: a transformação de resíduos plásticos em combustível. Trata-se de uma proposta em que a prefeitura investe na construção de uma usina, capaz de processar 20 toneladas de plástico por dia. Esse volume é convertido em 14 mil litros de combustível, sendo 10 mil de diesel e 4 mil de gasolina."
   }
   
 }
